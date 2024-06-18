@@ -47,16 +47,16 @@ module fastInvSqrt #(
     
     localparam WORD_WIDTH = INT_WIDTH + FRACT_WIDTH;
     
-    // Internal registers
+    // Internal signals
     reg [WORD_WIDTH-1:0] x_fix;
     reg [WORD_WIDTH-1:0] x_half;
-    reg [31:0] x_single;
+    wire [31:0] x_single;
     reg [31:0] y0_single;
-    reg [WORD_WIDTH-1:0] y0_fix;
-    reg [WORD_WIDTH-1:0] y;
+    wire [WORD_WIDTH-1:0] y0_fix;
+    wire [WORD_WIDTH-1:0] y;
     
     // ---- Fixed point to EEE754 Single prescion Converter ----
-    reg [WORD_WIDTH-1: 0] data_in_fixToSingle;
+    reg [WORD_WIDTH-1:0] data_in_fixToSingle;
     
     fixToSingle #(
         .INT_WIDTH(INT_WIDTH),
@@ -67,7 +67,7 @@ module fastInvSqrt #(
     );
     
     // ---- EEE754 Single prescion to fixed point Converter ----
-    reg [31: 0] data_in_singleToFix;
+    reg [31:0] data_in_singleToFix;
 
     singleToFix #(
         .INT_WIDTH(INT_WIDTH),
@@ -127,10 +127,7 @@ module fastInvSqrt #(
     always @ (posedge clk or posedge rst) begin
         if (rst) begin
             x_half <= 16'b0;    // Reset registers
-            x_single <= 32'b0;
             y0_single <= 32'b0;
-            y0_fix <= 16'b0;
-            y <= 16'b0;
               
             ready_in <= 1'b0;     // Invalidate and clear module outputs
             valid_out <= 1'b0;

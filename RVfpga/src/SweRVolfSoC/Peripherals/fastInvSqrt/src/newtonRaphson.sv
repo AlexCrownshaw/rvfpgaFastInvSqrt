@@ -20,7 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 module newtonRaphson (
-    input [15:0] y0, x_half,
+    input wire [15:0] x_half,
+    input wire [15:0] y0,
     output reg [15:0] y
     );
     
