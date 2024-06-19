@@ -33,7 +33,7 @@ module fastInvSqrt #(
     output reg valid_out,
     input wire ready_out
     
-    // Debug internal registers
+//    // Debug internal registers
 //    ,
 //    output reg [INT_WIDTH+FRACT_WIDTH-1:0] x_half,
 //    output reg [31:0] x_single,
@@ -47,15 +47,14 @@ module fastInvSqrt #(
     localparam WORD_WIDTH = INT_WIDTH + FRACT_WIDTH;
     
     // Internal signals
-    reg [WORD_WIDTH-1:0] x_fix;
     reg [WORD_WIDTH-1:0] x_half;
-    wire [31:0] x_single;
+    (* keep = "true" *) wire [31:0] x_single;
     reg [31:0] y0_single;
     wire [WORD_WIDTH-1:0] y0_fix;
     wire [WORD_WIDTH-1:0] y;
     
     // ---- Fixed point to EEE754 Single prescion Converter ----
-    reg [WORD_WIDTH-1:0] data_in_fixToSingle;
+    (* keep = "true" *) reg [WORD_WIDTH-1:0] data_in_fixToSingle;
     
     fixToSingle #(
         .INT_WIDTH(INT_WIDTH),
@@ -139,6 +138,8 @@ module fastInvSqrt #(
                     valid_out <= 1'b0;   // De-assert valid out 
                 end
                 FIX_TO_SINGLE: begin
+                    ready_in <= 1'b0;   // De-assert ready_in flag
+                    
 					x_half <= data_in >> 1; // Compute x_half with logical bit shift right
                     data_in_fixToSingle <= data_in; // Convert input to single prescion FP
                 end

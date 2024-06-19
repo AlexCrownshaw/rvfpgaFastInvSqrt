@@ -61,7 +61,7 @@ module fastInvSqrt_q12_4_tb;
         .valid_out(valid_out),
         .ready_out(ready_out)
         
-//         // Debug internal signals
+         // Debug internal signals
 //        ,
 //        .x_half(x_half),
 //        .x_single(x_single),

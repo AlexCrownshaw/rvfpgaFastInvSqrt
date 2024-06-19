@@ -28,17 +28,32 @@ module fastInvSqrt_top(
     input wire we_i,          // Write enable input
     input wire stb_i,         // Strobe input
     input wire cyc_i,         // Cycle input
-    output reg ack_o          // Acknowledge output
+    output reg ack_o,          // Acknowledge output
+    output reg interupt
+    
+    // Debug I/O
+    ,output reg [15:0] data_in,
+    output reg [15:0] data_out,
+    
+    output reg rst_fastInvSqrt,
+    output reg [15:0] data_in_fastInvSqrt,
+    output reg valid_in_fastInvSqrt,
+    output reg ready_in_fastInvSqrt,
+    output reg [15:0] data_out_fastInvSqrt,
+    output reg valid_out_fastInvSqrt,
+    output reg ready_out_fastInvSqrt,
+    output reg [2:0] debug_state
+
 );
 
     // ---- fastInvSqrt module instatiation ----
-    reg rst_fastInvSqrt;
-    reg [15:0] data_in_fastInvSqrt;
-    reg valid_in_fastInvSqrt;
-    wire ready_in_fastInvSqrt;
-    wire [15:0] data_out_fastInvSqrt;
-    wire valid_out_fastInvSqrt;
-    reg ready_out_fastInvSqrt;
+//    reg rst_fastInvSqrt;
+//    reg [15:0] data_in_fastInvSqrt;
+//    reg valid_in_fastInvSqrt;
+//    wire ready_in_fastInvSqrt;
+//    wire [15:0] data_out_fastInvSqrt;
+//    wire valid_out_fastInvSqrt;
+//    reg ready_out_fastInvSqrt;
         
     fastInvSqrt #(
         .INT_WIDTH(12),
@@ -55,8 +70,8 @@ module fastInvSqrt_top(
     );
 
     //  ----- Wishbone Interface ----
-    reg [15:0] data_in;
-    reg [15:0] data_out;
+//    reg [15:0] data_in;
+//    reg [15:0] data_out;
 
     wire valid_wb; // Valid cycle detection
     assign valid_wb = cyc_i && stb_i;
@@ -71,8 +86,6 @@ module fastInvSqrt_top(
                 ack_o <= 1'b1; // Acknowledge the cycle
                 if (we_i) begin
                     data_in <= dat_i;   // Write operation
-                end else begin
-                    data_out <= data_in;    // Read operation
                 end
             end
             if (ack_o) begin
@@ -90,6 +103,15 @@ module fastInvSqrt_top(
     } state_t;
     state_t state, next_state;
     
+    // Update debug_state for monitoring
+    always @(posedge clk or posedge rst) begin
+        if (rst) begin
+            debug_state <= IDLE;
+        end else begin
+            debug_state <= state;
+        end
+    end
+    
     always @(posedge clk or posedge rst) begin
         if (rst) begin
             state <= IDLE;
@@ -102,7 +124,7 @@ module fastInvSqrt_top(
         next_state = state;
         case (state)
             IDLE: begin
-                if (valid_wb && ack_o && we_i)  // If valid write cycle completed 
+                if (valid_wb && we_i)  // If valid write cycle completed 
                     next_state = START;
             end
             START: begin
@@ -126,11 +148,14 @@ module fastInvSqrt_top(
             data_in_fastInvSqrt <= 16'b0;   // Reset module input signals
             valid_in_fastInvSqrt <= 1'b0;
             ready_out_fastInvSqrt <= 1'b0;
+            interupt <= 1'b0;
+
         end
         else begin
             case (state)
                 IDLE: begin
                     rst_fastInvSqrt <= 1'b0;  // De-assert fastInvSqrt module reset signal
+                    interupt <= 1'b0;
                 end
                 START: begin
                     data_in_fastInvSqrt <= data_in; // Set fastInvSqrt data in
@@ -143,9 +168,12 @@ module fastInvSqrt_top(
                     end
                 end
                 DONE: begin
-                    if (valid_out_fastInvSqrt && ready_out_fastInvSqrt) begin
+//                    if (valid_out_fastInvSqrt && ready_out_fastInvSqrt) begin
+                        data_out <= data_out_fastInvSqrt;
                         ready_out_fastInvSqrt <= 1'b0;  // De-assert ready_out
-                    end
+                        
+                        interupt <= 1'b1;
+//                    end
                 end
             endcase
         end
