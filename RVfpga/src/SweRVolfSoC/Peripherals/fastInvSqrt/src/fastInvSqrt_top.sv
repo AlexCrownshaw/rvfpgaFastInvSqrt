@@ -31,29 +31,29 @@ module fastInvSqrt_top(
     output reg ack_o,          // Acknowledge output
     output reg interupt
     
-    // Debug I/O
-    ,output reg [15:0] data_in,
-    output reg [15:0] data_out,
+//    // Debug I/O
+//    ,output reg [15:0] data_in,
+//    output reg [15:0] data_out,
     
-    output reg rst_fastInvSqrt,
-    output reg [15:0] data_in_fastInvSqrt,
-    output reg valid_in_fastInvSqrt,
-    output reg ready_in_fastInvSqrt,
-    output reg [15:0] data_out_fastInvSqrt,
-    output reg valid_out_fastInvSqrt,
-    output reg ready_out_fastInvSqrt,
-    output reg [2:0] debug_state
+//    output reg rst_fastInvSqrt,
+//    output reg [15:0] data_in_fastInvSqrt,
+//    output reg valid_in_fastInvSqrt,
+//    output reg ready_in_fastInvSqrt,
+//    output reg [15:0] data_out_fastInvSqrt,
+//    output reg valid_out_fastInvSqrt,
+//    output reg ready_out_fastInvSqrt,
+//    output reg [2:0] debug_state
 
 );
 
     // ---- fastInvSqrt module instatiation ----
-//    reg rst_fastInvSqrt;
-//    reg [15:0] data_in_fastInvSqrt;
-//    reg valid_in_fastInvSqrt;
-//    wire ready_in_fastInvSqrt;
-//    wire [15:0] data_out_fastInvSqrt;
-//    wire valid_out_fastInvSqrt;
-//    reg ready_out_fastInvSqrt;
+    reg rst_fastInvSqrt;
+    reg [15:0] data_in_fastInvSqrt;
+    reg valid_in_fastInvSqrt;
+    wire ready_in_fastInvSqrt;
+    wire [15:0] data_out_fastInvSqrt;
+    wire valid_out_fastInvSqrt;
+    reg ready_out_fastInvSqrt;
         
     fastInvSqrt #(
         .INT_WIDTH(12),
@@ -70,8 +70,8 @@ module fastInvSqrt_top(
     );
 
     //  ----- Wishbone Interface ----
-//    reg [15:0] data_in;
-//    reg [15:0] data_out;
+    reg [15:0] data_in;
+    reg [15:0] data_out;
 
     wire valid_wb; // Valid cycle detection
     assign valid_wb = cyc_i && stb_i;
@@ -103,14 +103,14 @@ module fastInvSqrt_top(
     } state_t;
     state_t state, next_state;
     
-    // Update debug_state for monitoring
-    always @(posedge clk or posedge rst) begin
-        if (rst) begin
-            debug_state <= IDLE;
-        end else begin
-            debug_state <= state;
-        end
-    end
+//    // Update debug_state for monitoring
+//    always @(posedge clk or posedge rst) begin
+//        if (rst) begin
+//            debug_state <= IDLE;
+//        end else begin
+//            debug_state <= state;
+//        end
+//    end
     
     always @(posedge clk or posedge rst) begin
         if (rst) begin
@@ -168,12 +168,10 @@ module fastInvSqrt_top(
                     end
                 end
                 DONE: begin
-//                    if (valid_out_fastInvSqrt && ready_out_fastInvSqrt) begin
-                        data_out <= data_out_fastInvSqrt;
-                        ready_out_fastInvSqrt <= 1'b0;  // De-assert ready_out
-                        
-                        interupt <= 1'b1;
-//                    end
+                    data_out <= data_out_fastInvSqrt;
+                    ready_out_fastInvSqrt <= 1'b0;  // De-assert ready_out
+                    
+                    interupt <= 1'b1;
                 end
             endcase
         end
