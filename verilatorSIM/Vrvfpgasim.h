@@ -204,7 +204,7 @@ VL_MODULE(Vrvfpgasim) {
         WData/*203:0*/ __Vchglast__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux__gen_mux__DOT__i_ar_arbiter__DOT__gen_arbiter__DOT__data_nodes[7];
         WData/*221:0*/ __Vchglast__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__gen_mux__DOT__i_aw_arbiter__DOT__gen_arbiter__DOT__data_nodes[7];
         WData/*203:0*/ __Vchglast__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__gen_mux__DOT__i_ar_arbiter__DOT__gen_arbiter__DOT__data_nodes[7];
-        CData/*0:0*/ __Vm_traceActivity[28];
+        CData/*0:0*/ __Vm_traceActivity[29];
     };
     
     // INTERNAL VARIABLES

@@ -44,6 +44,7 @@ void Vrvfpgasim::_eval_initial(Vrvfpgasim__Syms* __restrict vlSymsp) {
     Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlSymsp->TOP__rvfpgasim__swervolf._initial__TOP__rvfpgasim__swervolf__1(vlSymsp);
+    vlTOPp->__Vm_traceActivity[0x1cU] = 1U;
     vlTOPp->__Vm_traceActivity[0x1bU] = 1U;
     vlTOPp->__Vm_traceActivity[0x1aU] = 1U;
     vlTOPp->__Vm_traceActivity[0x19U] = 1U;
@@ -163,6 +164,7 @@ void Vrvfpgasim::_eval_settle(Vrvfpgasim__Syms* __restrict vlSymsp) {
     Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     vlTOPp->_settle__TOP__1(vlSymsp);
+    vlTOPp->__Vm_traceActivity[0x1cU] = 1U;
     vlTOPp->__Vm_traceActivity[0x1bU] = 1U;
     vlTOPp->__Vm_traceActivity[0x1aU] = 1U;
     vlTOPp->__Vm_traceActivity[0x19U] = 1U;
@@ -365,7 +367,7 @@ void Vrvfpgasim::_ctor_var_reset() {
     __Vchglast__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__gen_mux__DOT__i_ar_arbiter__DOT__gen_arbiter__DOT__gen_int_rr__DOT__gen_fair_arb__DOT__i_lzc_upper__DOT__gen_lzc__DOT__index_nodes = VL_RAND_RESET_I(8);
     __Vchglast__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__gen_mux__DOT__i_ar_arbiter__DOT__gen_arbiter__DOT__gen_int_rr__DOT__gen_fair_arb__DOT__i_lzc_lower__DOT__gen_lzc__DOT__sel_nodes = VL_RAND_RESET_I(4);
     __Vchglast__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__gen_mux__DOT__i_ar_arbiter__DOT__gen_arbiter__DOT__gen_int_rr__DOT__gen_fair_arb__DOT__i_lzc_lower__DOT__gen_lzc__DOT__index_nodes = VL_RAND_RESET_I(8);
-    for (int __Vi0=0; __Vi0<28; ++__Vi0) {
+    for (int __Vi0=0; __Vi0<29; ++__Vi0) {
         __Vm_traceActivity[__Vi0] = VL_RAND_RESET_I(1);
     }
 }

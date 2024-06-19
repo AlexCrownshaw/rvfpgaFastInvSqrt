@@ -11,10 +11,10 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
     VL_DEBUG_IF(VL_DBG_MSGF("+        Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swervolf__17\n"); );
     Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
-    WData/*95:0*/ __Vtemp1063[3];
-    WData/*95:0*/ __Vtemp1064[3];
-    WData/*127:0*/ __Vtemp1065[4];
-    WData/*127:0*/ __Vtemp1066[4];
+    WData/*95:0*/ __Vtemp1060[3];
+    WData/*95:0*/ __Vtemp1061[3];
+    WData/*127:0*/ __Vtemp1062[4];
+    WData/*127:0*/ __Vtemp1063[4];
     // Body
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__lsu__DOT__bus_intf__DOT__bus_buffer__DOT__buf_unsign 
         = ((0x7fU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__lsu__DOT__bus_intf__DOT__bus_buffer__DOT__buf_unsign)) 
@@ -8391,32 +8391,32 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
         = ((0xcU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__mem_ctl__DOT__ic_wr_parity)) 
            | (3U & ((IData)((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__mem_ctl__DOT__ifu_axi_rdata_ff 
                              >> 0x20U)) >> 0x1eU)));
-    __Vtemp1063[0U] = (IData)((QData)((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[0U])));
-    __Vtemp1063[1U] = ((0xfffffffcU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[1U] 
+    __Vtemp1060[0U] = (IData)((QData)((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[0U])));
+    __Vtemp1060[1U] = ((0xfffffffcU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[1U] 
                                        << 2U)) | (IData)(
                                                          ((QData)((IData)(
                                                                           vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[0U])) 
                                                           >> 0x20U)));
-    __Vtemp1063[2U] = (3U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[1U] 
+    __Vtemp1060[2U] = (3U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[1U] 
                              >> 0x1eU));
-    VL_EXTEND_WW(68,66, __Vtemp1064, __Vtemp1063);
-    __Vtemp1065[0U] = __Vtemp1064[0U];
-    __Vtemp1065[1U] = __Vtemp1064[1U];
-    __Vtemp1065[2U] = ((0xfffffff0U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[2U] 
-                                       << 4U)) | __Vtemp1064[2U]);
-    __Vtemp1065[3U] = (0xfU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[2U] 
+    VL_EXTEND_WW(68,66, __Vtemp1061, __Vtemp1060);
+    __Vtemp1062[0U] = __Vtemp1061[0U];
+    __Vtemp1062[1U] = __Vtemp1061[1U];
+    __Vtemp1062[2U] = ((0xfffffff0U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[2U] 
+                                       << 4U)) | __Vtemp1061[2U]);
+    __Vtemp1062[3U] = (0xfU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[2U] 
                                >> 0x1cU));
-    VL_EXTEND_WW(102,100, __Vtemp1066, __Vtemp1065);
+    VL_EXTEND_WW(102,100, __Vtemp1063, __Vtemp1062);
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[0U] 
-        = __Vtemp1066[0U];
+        = __Vtemp1063[0U];
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[1U] 
-        = __Vtemp1066[1U];
+        = __Vtemp1063[1U];
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[2U] 
-        = __Vtemp1066[2U];
+        = __Vtemp1063[2U];
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[3U] 
         = ((0xffffffc0U & ((IData)((QData)((IData)(
                                                    vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[3U]))) 
-                           << 6U)) | __Vtemp1066[3U]);
+                           << 6U)) | __Vtemp1063[3U]);
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[4U] 
         = ((0x3fU & ((IData)((QData)((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[3U]))) 
                      >> 0x1aU)) | (0xffffffc0U & ((IData)(

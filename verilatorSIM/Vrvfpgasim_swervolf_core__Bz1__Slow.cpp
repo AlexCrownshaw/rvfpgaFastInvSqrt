@@ -10347,17 +10347,28 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__2(Vrvfpga
     if ((0U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__data_in_fixToSingle))) {
         vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__x_single = 0U;
     } else {
-        vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__normalised 
-            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__data_in_fixToSingle;
         vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount = 0U;
-        while (((~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__normalised) 
-                    >> 0xfU)) & (0x10U > (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount)))) {
-            vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__normalised 
-                = (0xffffU & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__normalised) 
-                              << 1U));
-            vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount 
-                = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount)));
+        if ((1U & (~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__data_in_fixToSingle) 
+                      >> 0xfU)))) {
+            vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount = 0U;
+            {
+                while ((0x10U > (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount))) {
+                    if ((1U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__data_in_fixToSingle) 
+                               >> (0xfU & ((IData)(0xfU) 
+                                           - (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount)))))) {
+                        goto __Vlabel1;
+                    }
+                    vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount 
+                        = (0x3fU & ((IData)(1U) + (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount)));
+                }
+                __Vlabel1: ;
+            }
         }
+        vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__normalised 
+            = ((0xfU >= (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount))
+                ? (0xffffU & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__data_in_fixToSingle) 
+                              << (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount)))
+                : 0U);
         vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__exponent 
             = (0xffU & ((IData)(0x7fU) + ((IData)(0xbU) 
                                           - (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__fixToSingle_inst__DOT__shift_amount))));

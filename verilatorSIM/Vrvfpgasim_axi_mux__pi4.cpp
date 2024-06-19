@@ -1375,8 +1375,53 @@ VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__
                                                    << 8U))))));
 }
 
-VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux__13(Vrvfpgasim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+              Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux__13\n"); );
+VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux__13(Vrvfpgasim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+              Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux__13\n"); );
+    Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_fill 
+        = ((IData)(this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__a_drain) 
+           & (~ (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
+                 >> 0x17U)));
+    this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_drain 
+        = ((IData)(this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_full_q) 
+           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
+              >> 0x17U));
+    this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_fill 
+        = ((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__a_drain) 
+           & (~ (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
+                 >> 0x16U)));
+    this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_drain 
+        = ((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_full_q) 
+           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
+              >> 0x16U));
+    this->__PVT__gen_mux__DOT__slv_w_readies = 0U;
+    if ((0U != (IData)(this->__PVT__gen_mux__DOT__i_w_fifo__DOT__status_cnt_q))) {
+        this->__Vlvbound1 = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
+                                   >> 0x15U));
+        if ((2U >= (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o))) {
+            this->__PVT__gen_mux__DOT__slv_w_readies 
+                = (((~ ((IData)(1U) << (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o))) 
+                    & (IData)(this->__PVT__gen_mux__DOT__slv_w_readies)) 
+                   | ((IData)(this->__Vlvbound1) << (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o)));
+        }
+    }
+    this->__PVT__slv_resps_o[2U] = ((0xfffdffffU & 
+                                     this->__PVT__slv_resps_o[2U]) 
+                                    | (0x20000U & ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
+                                                   << 0x11U)));
+    this->__PVT__slv_resps_o[5U] = ((0xffffffdfU & 
+                                     this->__PVT__slv_resps_o[5U]) 
+                                    | (0x20U & ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
+                                                << 4U)));
+    this->__PVT__slv_resps_o[7U] = ((0xdffffffU & this->__PVT__slv_resps_o[7U]) 
+                                    | (0x2000000U & 
+                                       ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
+                                        << 0x17U)));
+}
+
+VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux__15(Vrvfpgasim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+              Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux__15\n"); );
     Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     this->__PVT__mst_req_o[0U] = ((0xfffffffcU & (((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_full_q)
@@ -1526,51 +1571,6 @@ VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__ax
             = ((5U == (IData)(this->__PVT__gen_mux__DOT__i_w_fifo__DOT__read_pointer_n))
                 ? 0U : (7U & ((IData)(1U) + (IData)(this->__PVT__gen_mux__DOT__i_w_fifo__DOT__read_pointer_q))));
     }
-}
-
-VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux__15(Vrvfpgasim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+              Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__0__KET____DOT__i_axi_mux__15\n"); );
-    Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_fill 
-        = ((IData)(this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__a_drain) 
-           & (~ (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
-                 >> 0x17U)));
-    this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_drain 
-        = ((IData)(this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_full_q) 
-           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
-              >> 0x17U));
-    this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_fill 
-        = ((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__a_drain) 
-           & (~ (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
-                 >> 0x16U)));
-    this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_drain 
-        = ((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_full_q) 
-           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
-              >> 0x16U));
-    this->__PVT__gen_mux__DOT__slv_w_readies = 0U;
-    if ((0U != (IData)(this->__PVT__gen_mux__DOT__i_w_fifo__DOT__status_cnt_q))) {
-        this->__Vlvbound1 = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[2U] 
-                                   >> 0x15U));
-        if ((2U >= (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o))) {
-            this->__PVT__gen_mux__DOT__slv_w_readies 
-                = (((~ ((IData)(1U) << (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o))) 
-                    & (IData)(this->__PVT__gen_mux__DOT__slv_w_readies)) 
-                   | ((IData)(this->__Vlvbound1) << (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o)));
-        }
-    }
-    this->__PVT__slv_resps_o[2U] = ((0xfffdffffU & 
-                                     this->__PVT__slv_resps_o[2U]) 
-                                    | (0x20000U & ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
-                                                   << 0x11U)));
-    this->__PVT__slv_resps_o[5U] = ((0xffffffdfU & 
-                                     this->__PVT__slv_resps_o[5U]) 
-                                    | (0x20U & ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
-                                                << 4U)));
-    this->__PVT__slv_resps_o[7U] = ((0xdffffffU & this->__PVT__slv_resps_o[7U]) 
-                                    | (0x2000000U & 
-                                       ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
-                                        << 0x17U)));
 }
 
 VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__6(Vrvfpgasim__Syms* __restrict vlSymsp) {
@@ -2081,8 +2081,53 @@ VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__
                                                          >> 0x10U))))))));
 }
 
-VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__14(Vrvfpgasim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+              Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__14\n"); );
+VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__14(Vrvfpgasim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+              Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__14\n"); );
+    Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
+    // Body
+    this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_fill 
+        = ((IData)(this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__a_drain) 
+           & (~ (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
+                 >> 0xfU)));
+    this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_drain 
+        = ((IData)(this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_full_q) 
+           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
+              >> 0xfU));
+    this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_fill 
+        = ((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__a_drain) 
+           & (~ (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
+                 >> 0xeU)));
+    this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_drain 
+        = ((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_full_q) 
+           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
+              >> 0xeU));
+    this->__PVT__gen_mux__DOT__slv_w_readies = 0U;
+    if ((0U != (IData)(this->__PVT__gen_mux__DOT__i_w_fifo__DOT__status_cnt_q))) {
+        this->__Vlvbound1 = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
+                                   >> 0xdU));
+        if ((2U >= (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o))) {
+            this->__PVT__gen_mux__DOT__slv_w_readies 
+                = (((~ ((IData)(1U) << (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o))) 
+                    & (IData)(this->__PVT__gen_mux__DOT__slv_w_readies)) 
+                   | ((IData)(this->__Vlvbound1) << (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o)));
+        }
+    }
+    this->__PVT__slv_resps_o[2U] = ((0xfffdffffU & 
+                                     this->__PVT__slv_resps_o[2U]) 
+                                    | (0x20000U & ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
+                                                   << 0x11U)));
+    this->__PVT__slv_resps_o[5U] = ((0xffffffdfU & 
+                                     this->__PVT__slv_resps_o[5U]) 
+                                    | (0x20U & ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
+                                                << 4U)));
+    this->__PVT__slv_resps_o[7U] = ((0xdffffffU & this->__PVT__slv_resps_o[7U]) 
+                                    | (0x2000000U & 
+                                       ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
+                                        << 0x17U)));
+}
+
+VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__16(Vrvfpgasim__Syms* __restrict vlSymsp) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+              Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__16\n"); );
     Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Body
     this->__PVT__mst_req_o[0U] = ((0xfffffffcU & (((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_full_q)
@@ -2222,49 +2267,4 @@ VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_combo__TOP__rvfpgasim__swervolf__ax
             = ((5U == (IData)(this->__PVT__gen_mux__DOT__i_w_fifo__DOT__read_pointer_n))
                 ? 0U : (7U & ((IData)(1U) + (IData)(this->__PVT__gen_mux__DOT__i_w_fifo__DOT__read_pointer_q))));
     }
-}
-
-VL_INLINE_OPT void Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__16(Vrvfpgasim__Syms* __restrict vlSymsp) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+              Vrvfpgasim_axi_mux__pi4::_sequent__TOP__rvfpgasim__swervolf__axi_intercon__DOT__axi_xbar__DOT__gen_mst_port_mux__BRA__1__KET____DOT__i_axi_mux__16\n"); );
-    Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Body
-    this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_fill 
-        = ((IData)(this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__a_drain) 
-           & (~ (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
-                 >> 0xfU)));
-    this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_drain 
-        = ((IData)(this->__PVT__gen_mux__DOT__i_aw_spill_reg__DOT__gen_spill_reg__DOT__b_full_q) 
-           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
-              >> 0xfU));
-    this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_fill 
-        = ((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__a_drain) 
-           & (~ (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
-                 >> 0xeU)));
-    this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_drain 
-        = ((IData)(this->__PVT__gen_mux__DOT__i_ar_spill_reg__DOT__gen_spill_reg__DOT__b_full_q) 
-           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
-              >> 0xeU));
-    this->__PVT__gen_mux__DOT__slv_w_readies = 0U;
-    if ((0U != (IData)(this->__PVT__gen_mux__DOT__i_w_fifo__DOT__status_cnt_q))) {
-        this->__Vlvbound1 = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[5U] 
-                                   >> 0xdU));
-        if ((2U >= (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o))) {
-            this->__PVT__gen_mux__DOT__slv_w_readies 
-                = (((~ ((IData)(1U) << (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o))) 
-                    & (IData)(this->__PVT__gen_mux__DOT__slv_w_readies)) 
-                   | ((IData)(this->__Vlvbound1) << (IData)(this->__Vcellout__gen_mux__DOT__i_w_fifo__data_o)));
-        }
-    }
-    this->__PVT__slv_resps_o[2U] = ((0xfffdffffU & 
-                                     this->__PVT__slv_resps_o[2U]) 
-                                    | (0x20000U & ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
-                                                   << 0x11U)));
-    this->__PVT__slv_resps_o[5U] = ((0xffffffdfU & 
-                                     this->__PVT__slv_resps_o[5U]) 
-                                    | (0x20U & ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
-                                                << 4U)));
-    this->__PVT__slv_resps_o[7U] = ((0xdffffffU & this->__PVT__slv_resps_o[7U]) 
-                                    | (0x2000000U & 
-                                       ((IData)(this->__PVT__gen_mux__DOT__slv_w_readies) 
-                                        << 0x17U)));
 }

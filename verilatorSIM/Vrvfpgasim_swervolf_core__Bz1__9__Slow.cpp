@@ -831,6 +831,9 @@ void Vrvfpgasim_swervolf_core__Bz1::_ctor_var_reset() {
     __PVT__spi2__DOT__wfifo__DOT__wp_p1 = VL_RAND_RESET_I(2);
     __PVT__spi2__DOT__wfifo__DOT__rp_p1 = VL_RAND_RESET_I(2);
     __PVT__spi2__DOT__wfifo__DOT__gb = VL_RAND_RESET_I(1);
+    __PVT__fastInvSqrt__DOT__interupt = VL_RAND_RESET_I(1);
+    __PVT__fastInvSqrt__DOT__data_in = VL_RAND_RESET_I(16);
+    __PVT__fastInvSqrt__DOT__data_out = VL_RAND_RESET_I(16);
     __PVT__fastInvSqrt__DOT__rst_fastInvSqrt = VL_RAND_RESET_I(1);
     __PVT__fastInvSqrt__DOT__data_in_fastInvSqrt = VL_RAND_RESET_I(16);
     __PVT__fastInvSqrt__DOT__valid_in_fastInvSqrt = VL_RAND_RESET_I(1);
@@ -838,12 +841,10 @@ void Vrvfpgasim_swervolf_core__Bz1::_ctor_var_reset() {
     __PVT__fastInvSqrt__DOT__data_out_fastInvSqrt = VL_RAND_RESET_I(16);
     __PVT__fastInvSqrt__DOT__valid_out_fastInvSqrt = VL_RAND_RESET_I(1);
     __PVT__fastInvSqrt__DOT__ready_out_fastInvSqrt = VL_RAND_RESET_I(1);
-    __PVT__fastInvSqrt__DOT__data_in = VL_RAND_RESET_I(16);
-    __PVT__fastInvSqrt__DOT__data_out = VL_RAND_RESET_I(16);
+    __PVT__fastInvSqrt__DOT__debug_state = VL_RAND_RESET_I(3);
     __PVT__fastInvSqrt__DOT__valid_wb = VL_RAND_RESET_I(1);
     __PVT__fastInvSqrt__DOT__state = VL_RAND_RESET_I(2);
     __PVT__fastInvSqrt__DOT__next_state = VL_RAND_RESET_I(2);
-    __PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__x_fix = VL_RAND_RESET_I(16);
     __PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__x_half = VL_RAND_RESET_I(16);
     __PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__x_single = VL_RAND_RESET_I(32);
     __PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__y0_single = VL_RAND_RESET_I(32);
@@ -6382,6 +6383,5 @@ void Vrvfpgasim_swervolf_core__Bz1::_ctor_var_reset() {
     __Vdly__gpio_module__DOT__rgpio_ctrl = VL_RAND_RESET_I(2);
     __Vdly__gpio_module__DOT__rgpio_ints = VL_RAND_RESET_I(32);
     __Vdly__timer_ptc__DOT__rptc_ctrl = VL_RAND_RESET_I(9);
-    __Vdly__fastInvSqrt__DOT__data_in = VL_RAND_RESET_I(16);
-    __Vdly__fastInvSqrt__DOT__ready_out_fastInvSqrt = VL_RAND_RESET_I(1);
+    __Vdly__wb_s2m_fastInvSqrt_ack = VL_RAND_RESET_I(1);
 }
