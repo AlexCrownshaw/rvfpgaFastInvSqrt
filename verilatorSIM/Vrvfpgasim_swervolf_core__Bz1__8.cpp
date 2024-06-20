@@ -475,164 +475,6 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
     CData/*0:0*/ __Vdlyvset__spi2__DOT__rfifo__DOT__mem__v0;
     IData/*31:0*/ __Vdly__syscon__DOT__irq_timer_cnt;
     IData/*31:0*/ __Vdly__nmi_vec;
-    WData/*223:0*/ __Vtemp1668[7];
-    WData/*255:0*/ __Vtemp1669[8];
-    WData/*223:0*/ __Vtemp1671[7];
-    WData/*255:0*/ __Vtemp1672[8];
-    WData/*223:0*/ __Vtemp1673[7];
-    WData/*255:0*/ __Vtemp1674[8];
-    WData/*223:0*/ __Vtemp1675[7];
-    WData/*255:0*/ __Vtemp1676[8];
-    WData/*223:0*/ __Vtemp1678[7];
-    WData/*255:0*/ __Vtemp1679[8];
-    WData/*223:0*/ __Vtemp1681[7];
-    WData/*255:0*/ __Vtemp1682[8];
-    WData/*223:0*/ __Vtemp1685[7];
-    WData/*255:0*/ __Vtemp1686[8];
-    WData/*223:0*/ __Vtemp1687[7];
-    WData/*255:0*/ __Vtemp1688[8];
-    WData/*223:0*/ __Vtemp1689[7];
-    WData/*255:0*/ __Vtemp1690[8];
-    WData/*223:0*/ __Vtemp1691[7];
-    WData/*255:0*/ __Vtemp1692[8];
-    WData/*223:0*/ __Vtemp1693[7];
-    WData/*255:0*/ __Vtemp1694[8];
-    WData/*223:0*/ __Vtemp1695[7];
-    WData/*255:0*/ __Vtemp1696[8];
-    WData/*223:0*/ __Vtemp1697[7];
-    WData/*255:0*/ __Vtemp1698[8];
-    WData/*223:0*/ __Vtemp1699[7];
-    WData/*255:0*/ __Vtemp1700[8];
-    WData/*223:0*/ __Vtemp1701[7];
-    WData/*255:0*/ __Vtemp1702[8];
-    WData/*223:0*/ __Vtemp1703[7];
-    WData/*255:0*/ __Vtemp1704[8];
-    WData/*223:0*/ __Vtemp1705[7];
-    WData/*255:0*/ __Vtemp1706[8];
-    WData/*223:0*/ __Vtemp1707[7];
-    WData/*255:0*/ __Vtemp1708[8];
-    WData/*223:0*/ __Vtemp1709[7];
-    WData/*255:0*/ __Vtemp1710[8];
-    WData/*223:0*/ __Vtemp1711[7];
-    WData/*255:0*/ __Vtemp1712[8];
-    WData/*223:0*/ __Vtemp1713[7];
-    WData/*255:0*/ __Vtemp1714[8];
-    WData/*223:0*/ __Vtemp1715[7];
-    WData/*255:0*/ __Vtemp1716[8];
-    WData/*223:0*/ __Vtemp1717[7];
-    WData/*255:0*/ __Vtemp1718[8];
-    WData/*223:0*/ __Vtemp1719[7];
-    WData/*255:0*/ __Vtemp1720[8];
-    WData/*223:0*/ __Vtemp1721[7];
-    WData/*255:0*/ __Vtemp1722[8];
-    WData/*223:0*/ __Vtemp1723[7];
-    WData/*255:0*/ __Vtemp1724[8];
-    WData/*223:0*/ __Vtemp1725[7];
-    WData/*255:0*/ __Vtemp1726[8];
-    WData/*223:0*/ __Vtemp1727[7];
-    WData/*255:0*/ __Vtemp1728[8];
-    WData/*223:0*/ __Vtemp1729[7];
-    WData/*255:0*/ __Vtemp1730[8];
-    WData/*223:0*/ __Vtemp1731[7];
-    WData/*255:0*/ __Vtemp1732[8];
-    WData/*223:0*/ __Vtemp1733[7];
-    WData/*255:0*/ __Vtemp1734[8];
-    WData/*223:0*/ __Vtemp1735[7];
-    WData/*255:0*/ __Vtemp1736[8];
-    WData/*223:0*/ __Vtemp1737[7];
-    WData/*255:0*/ __Vtemp1738[8];
-    WData/*223:0*/ __Vtemp1739[7];
-    WData/*255:0*/ __Vtemp1740[8];
-    WData/*223:0*/ __Vtemp1741[7];
-    WData/*255:0*/ __Vtemp1742[8];
-    WData/*223:0*/ __Vtemp1743[7];
-    WData/*255:0*/ __Vtemp1744[8];
-    WData/*223:0*/ __Vtemp1745[7];
-    WData/*255:0*/ __Vtemp1746[8];
-    WData/*223:0*/ __Vtemp1747[7];
-    WData/*255:0*/ __Vtemp1748[8];
-    WData/*223:0*/ __Vtemp1749[7];
-    WData/*255:0*/ __Vtemp1750[8];
-    WData/*223:0*/ __Vtemp1751[7];
-    WData/*255:0*/ __Vtemp1752[8];
-    WData/*223:0*/ __Vtemp1753[7];
-    WData/*255:0*/ __Vtemp1754[8];
-    WData/*223:0*/ __Vtemp1755[7];
-    WData/*255:0*/ __Vtemp1756[8];
-    WData/*223:0*/ __Vtemp1757[7];
-    WData/*255:0*/ __Vtemp1758[8];
-    WData/*223:0*/ __Vtemp1759[7];
-    WData/*255:0*/ __Vtemp1760[8];
-    WData/*223:0*/ __Vtemp1761[7];
-    WData/*255:0*/ __Vtemp1762[8];
-    WData/*223:0*/ __Vtemp1763[7];
-    WData/*255:0*/ __Vtemp1764[8];
-    WData/*223:0*/ __Vtemp1765[7];
-    WData/*255:0*/ __Vtemp1766[8];
-    WData/*223:0*/ __Vtemp1767[7];
-    WData/*255:0*/ __Vtemp1768[8];
-    WData/*223:0*/ __Vtemp1769[7];
-    WData/*255:0*/ __Vtemp1770[8];
-    WData/*223:0*/ __Vtemp1771[7];
-    WData/*255:0*/ __Vtemp1772[8];
-    WData/*223:0*/ __Vtemp1773[7];
-    WData/*255:0*/ __Vtemp1774[8];
-    WData/*223:0*/ __Vtemp1775[7];
-    WData/*255:0*/ __Vtemp1776[8];
-    WData/*223:0*/ __Vtemp1777[7];
-    WData/*255:0*/ __Vtemp1778[8];
-    WData/*223:0*/ __Vtemp1779[7];
-    WData/*255:0*/ __Vtemp1780[8];
-    WData/*223:0*/ __Vtemp1781[7];
-    WData/*255:0*/ __Vtemp1782[8];
-    WData/*223:0*/ __Vtemp1783[7];
-    WData/*255:0*/ __Vtemp1784[8];
-    WData/*223:0*/ __Vtemp1785[7];
-    WData/*255:0*/ __Vtemp1786[8];
-    WData/*223:0*/ __Vtemp1787[7];
-    WData/*255:0*/ __Vtemp1788[8];
-    WData/*223:0*/ __Vtemp1789[7];
-    WData/*255:0*/ __Vtemp1790[8];
-    WData/*223:0*/ __Vtemp1791[7];
-    WData/*255:0*/ __Vtemp1792[8];
-    WData/*223:0*/ __Vtemp1793[7];
-    WData/*255:0*/ __Vtemp1794[8];
-    WData/*223:0*/ __Vtemp1795[7];
-    WData/*255:0*/ __Vtemp1796[8];
-    WData/*223:0*/ __Vtemp1797[7];
-    WData/*255:0*/ __Vtemp1798[8];
-    WData/*223:0*/ __Vtemp1799[7];
-    WData/*255:0*/ __Vtemp1800[8];
-    WData/*223:0*/ __Vtemp1801[7];
-    WData/*255:0*/ __Vtemp1802[8];
-    WData/*223:0*/ __Vtemp1803[7];
-    WData/*255:0*/ __Vtemp1804[8];
-    WData/*223:0*/ __Vtemp1805[7];
-    WData/*255:0*/ __Vtemp1806[8];
-    WData/*223:0*/ __Vtemp1807[7];
-    WData/*255:0*/ __Vtemp1808[8];
-    WData/*223:0*/ __Vtemp1809[7];
-    WData/*255:0*/ __Vtemp1810[8];
-    WData/*223:0*/ __Vtemp1811[7];
-    WData/*255:0*/ __Vtemp1812[8];
-    WData/*223:0*/ __Vtemp1813[7];
-    WData/*255:0*/ __Vtemp1814[8];
-    WData/*223:0*/ __Vtemp1815[7];
-    WData/*255:0*/ __Vtemp1816[8];
-    WData/*223:0*/ __Vtemp1817[7];
-    WData/*255:0*/ __Vtemp1818[8];
-    WData/*223:0*/ __Vtemp1819[7];
-    WData/*255:0*/ __Vtemp1820[8];
-    WData/*223:0*/ __Vtemp1821[7];
-    WData/*255:0*/ __Vtemp1822[8];
-    WData/*223:0*/ __Vtemp1823[7];
-    WData/*255:0*/ __Vtemp1824[8];
-    WData/*223:0*/ __Vtemp1825[7];
-    WData/*255:0*/ __Vtemp1826[8];
-    WData/*223:0*/ __Vtemp1827[7];
-    WData/*255:0*/ __Vtemp1828[8];
-    WData/*223:0*/ __Vtemp1829[7];
-    WData/*255:0*/ __Vtemp1830[8];
     QData/*63:0*/ __Vdly__syscon__DOT__mtimecmp;
     QData/*63:0*/ __Vdly__syscon__DOT__mtime;
     // Body
@@ -818,14 +660,6 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__wbm_err 
         = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_cyc) 
            & (~ (IData)((0U != (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)))));
-    __Vtemp1668[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1668[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1668[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1668[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1668[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1668[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1668[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    VL_EXTEND_WW(240,224, __Vtemp1669, __Vtemp1668);
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wcol 
         = ((~ ((~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__spcr) 
                    >> 6U)) | (~ (IData)(vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn)))) 
@@ -833,15 +667,8 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
                 & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wffull)) 
                | (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wcol)) 
               & (~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wr_spsr) 
-                    & (__Vtemp1669[3U] >> 0x16U)))));
-    __Vtemp1671[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1671[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1671[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1671[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1671[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1671[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1671[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    VL_EXTEND_WW(240,224, __Vtemp1672, __Vtemp1671);
+                    & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                       >> 0x16U)))));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__wcol 
         = ((~ ((~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__spcr) 
                    >> 6U)) | (~ (IData)(vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn)))) 
@@ -849,35 +676,20 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
                 & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__wffull)) 
                | (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__wcol)) 
               & (~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__wr_spsr) 
-                    & (__Vtemp1672[4U] >> 0x16U)))));
+                    & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                       >> 0x16U)))));
     if (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wfwe) {
-        __Vtemp1673[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1673[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1673[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1673[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1673[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1673[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1673[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        VL_EXTEND_WW(240,224, __Vtemp1674, __Vtemp1673);
         vlSymsp->TOP__rvfpgasim__swervolf.__Vdlyvval__spi2__DOT__wfifo__DOT__mem__v0 
-            = (0xffU & ((__Vtemp1674[4U] << 0x10U) 
-                        | (__Vtemp1674[3U] >> 0x10U)));
+            = (0xffU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                        >> 0x10U));
         vlSymsp->TOP__rvfpgasim__swervolf.__Vdlyvset__spi2__DOT__wfifo__DOT__mem__v0 = 1U;
         vlSymsp->TOP__rvfpgasim__swervolf.__Vdlyvdim0__spi2__DOT__wfifo__DOT__mem__v0 
             = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wfifo__DOT__wp;
     }
     if (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__wfwe) {
-        __Vtemp1675[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1675[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1675[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1675[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1675[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1675[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        __Vtemp1675[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-        VL_EXTEND_WW(240,224, __Vtemp1676, __Vtemp1675);
         vlSymsp->TOP__rvfpgasim__swervolf.__Vdlyvval__spi__DOT__wfifo__DOT__mem__v0 
-            = (0xffU & ((__Vtemp1676[5U] << 0x10U) 
-                        | (__Vtemp1676[4U] >> 0x10U)));
+            = (0xffU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                        >> 0x10U));
         vlSymsp->TOP__rvfpgasim__swervolf.__Vdlyvset__spi__DOT__wfifo__DOT__mem__v0 = 1U;
         vlSymsp->TOP__rvfpgasim__swervolf.__Vdlyvdim0__spi__DOT__wfifo__DOT__mem__v0 
             = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__wfifo__DOT__wp;
@@ -935,40 +747,35 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
         vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi2wb__DOT__ar_req = 0U;
         vlSymsp->TOP__rvfpgasim__swervolf.__PVT__io_rid = 0U;
     }
-    vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2_rdt 
-        = ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i))
-            ? ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i))
-                ? 0U : ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i))
-                         ? 0U : (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__ss_r)))
-            : ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i))
-                ? ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i))
+    if ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))) {
+        vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2_rdt 
+            = ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
+                ? 0U : ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
+                         ? 0U : (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__ss_r)));
+        vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi_rdt 
+            = ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
+                ? 0U : ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
+                         ? 0U : (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__ss_r)));
+    } else {
+        vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2_rdt 
+            = ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
+                ? ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
                     ? (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__sper)
                     : vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__rfifo__DOT__mem
                    [vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__rfifo__DOT__rp])
-                : ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i))
+                : ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
                     ? (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__spsr)
-                    : (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__spcr))));
-    vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi_rdt 
-        = ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
-            ? ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
-                ? 0U : ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
-                         ? 0U : (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__ss_r)))
-            : ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
+                    : (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__spcr)));
+        vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi_rdt 
+            = ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
                 ? ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
                     ? (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__sper)
                     : vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__rfifo__DOT__mem
                    [vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__rfifo__DOT__rp])
                 : ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))
                     ? (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__spsr)
-                    : (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__spcr))));
-    __Vtemp1678[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1678[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1678[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1678[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1678[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1678[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1678[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    VL_EXTEND_WW(240,224, __Vtemp1679, __Vtemp1678);
+                    : (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__spcr)));
+    }
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__spif 
         = ((~ ((~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__spcr) 
                    >> 6U)) | (~ (IData)(vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn)))) 
@@ -976,15 +783,8 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
                 & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__rfwe)) 
                | (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__spif)) 
               & (~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__wr_spsr) 
-                    & (__Vtemp1679[4U] >> 0x17U)))));
-    __Vtemp1681[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1681[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1681[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1681[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1681[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1681[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    __Vtemp1681[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-    VL_EXTEND_WW(240,224, __Vtemp1682, __Vtemp1681);
+                    & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                       >> 0x17U)))));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__spif 
         = ((~ ((~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__spcr) 
                    >> 6U)) | (~ (IData)(vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn)))) 
@@ -992,7 +792,8 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
                 & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__rfwe)) 
                | (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__spif)) 
               & (~ ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wr_spsr) 
-                    & (__Vtemp1682[3U] >> 0x17U)))));
+                    & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                       >> 0x17U)))));
     if ((0x40U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__spcr))) {
         if (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__rfwe) {
             vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__tcnt 
@@ -1132,17 +933,10 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
     }
     if (vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn) {
         if (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wb_wr) {
-            if ((4U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i))) {
-                __Vtemp1685[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1685[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1685[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1685[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1685[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1685[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1685[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                VL_EXTEND_WW(240,224, __Vtemp1686, __Vtemp1685);
+            if ((4U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))) {
                 vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__ss_r 
-                    = (1U & (__Vtemp1686[3U] >> 0x10U));
+                    = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                             >> 0x10U));
             }
         }
     } else {
@@ -1151,16 +945,9 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
     if (vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn) {
         if (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__wb_wr) {
             if ((4U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))) {
-                __Vtemp1687[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1687[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1687[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1687[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1687[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1687[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1687[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                VL_EXTEND_WW(240,224, __Vtemp1688, __Vtemp1687);
                 vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__ss_r 
-                    = (1U & (__Vtemp1688[4U] >> 0x10U));
+                    = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                             >> 0x10U));
             }
         }
     } else {
@@ -1169,18 +956,9 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
     if (vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn) {
         if (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__wb_wr) {
             if ((3U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))) {
-                __Vtemp1689[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1689[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1689[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1689[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1689[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1689[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1689[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                VL_EXTEND_WW(240,224, __Vtemp1690, __Vtemp1689);
                 vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi__DOT__sper 
-                    = (0xffU & ((__Vtemp1690[5U] << 0x10U) 
-                                | (__Vtemp1690[4U] 
-                                   >> 0x10U)));
+                    = (0xffU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                >> 0x10U));
             }
         }
     } else {
@@ -1188,19 +966,10 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
     }
     if (vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn) {
         if (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wb_wr) {
-            if ((3U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i))) {
-                __Vtemp1691[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1691[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1691[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1691[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1691[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1691[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                __Vtemp1691[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                VL_EXTEND_WW(240,224, __Vtemp1692, __Vtemp1691);
+            if ((3U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i))) {
                 vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__sper 
-                    = (0xffU & ((__Vtemp1692[4U] << 0x10U) 
-                                | (__Vtemp1692[3U] 
-                                   >> 0x10U)));
+                    = (0xffU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                >> 0x10U));
             }
         }
     } else {
@@ -1250,825 +1019,225 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
             >> 6U) & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_stb)) 
           & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_we)) 
          & (~ (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_ack)))) {
-        __Vtemp1693[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1693[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1693[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1693[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1693[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1693[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1693[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1694, __Vtemp1693);
-        __Vtemp1695[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1695[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1695[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1695[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1695[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1695[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1695[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1696, __Vtemp1695);
-        __Vtemp1697[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1697[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1697[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1697[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1697[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1697[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1697[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1698, __Vtemp1697);
-        __Vtemp1699[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1699[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1699[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1699[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1699[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1699[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1699[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1700, __Vtemp1699);
-        __Vtemp1701[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1701[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1701[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1701[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1701[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1701[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1701[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1702, __Vtemp1701);
-        __Vtemp1703[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1703[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1703[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1703[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1703[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1703[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1703[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1704, __Vtemp1703);
-        __Vtemp1705[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1705[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1705[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1705[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1705[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1705[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1705[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1706, __Vtemp1705);
-        __Vtemp1707[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1707[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1707[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1707[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1707[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1707[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1707[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1708, __Vtemp1707);
-        if (((((((((2U == (0xfU & ((__Vtemp1694[7U] 
-                                    << 0x1eU) | (__Vtemp1694[6U] 
-                                                 >> 2U)))) 
-                   | (3U == (0xfU & ((__Vtemp1696[7U] 
-                                      << 0x1eU) | (
-                                                   __Vtemp1696[6U] 
-                                                   >> 2U))))) 
-                  | (6U == (0xfU & ((__Vtemp1698[7U] 
-                                     << 0x1eU) | (__Vtemp1698[6U] 
-                                                  >> 2U))))) 
-                 | (0xaU == (0xfU & ((__Vtemp1700[7U] 
-                                      << 0x1eU) | (
-                                                   __Vtemp1700[6U] 
-                                                   >> 2U))))) 
-                | (0xbU == (0xfU & ((__Vtemp1702[7U] 
-                                     << 0x1eU) | (__Vtemp1702[6U] 
-                                                  >> 2U))))) 
-               | (0xcU == (0xfU & ((__Vtemp1704[7U] 
-                                    << 0x1eU) | (__Vtemp1704[6U] 
-                                                 >> 2U))))) 
-              | (0xdU == (0xfU & ((__Vtemp1706[7U] 
-                                   << 0x1eU) | (__Vtemp1706[6U] 
-                                                >> 2U))))) 
-             | (0xeU == (0xfU & ((__Vtemp1708[7U] << 0x1eU) 
-                                 | (__Vtemp1708[6U] 
-                                    >> 2U)))))) {
-            __Vtemp1709[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1709[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1709[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1709[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1709[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1709[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1709[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            VL_EXTEND_WW(256,224, __Vtemp1710, __Vtemp1709);
-            if ((2U == (0xfU & ((__Vtemp1710[7U] << 0x1eU) 
-                                | (__Vtemp1710[6U] 
-                                   >> 2U))))) {
+        if (((((((((2U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))) 
+                   | (3U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+                  | (6U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+                 | (0xaU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+                | (0xbU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+               | (0xcU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+              | (0xdU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+             | (0xeU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))))) {
+            if ((2U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                 if (VL_UNLIKELY((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel)))) {
                     if (VL_UNLIKELY((0U != vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__f))) {
-                        __Vtemp1711[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1711[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1711[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1711[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1711[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1711[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1711[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        VL_EXTEND_WW(240,224, __Vtemp1712, __Vtemp1711);
                         VL_FWRITEF(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__f,"%c",
-                                   8,(0xffU & ((__Vtemp1712[6U] 
-                                                << 0x10U) 
-                                               | (__Vtemp1712[5U] 
-                                                  >> 0x10U))));
+                                   8,(0xffU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                               >> 0x10U)));
                     }
-                    __Vtemp1713[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1713[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1713[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1713[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1713[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1713[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1713[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1714, __Vtemp1713);
-                    VL_WRITEF("%c",8,(0xffU & ((__Vtemp1714[6U] 
-                                                << 0x10U) 
-                                               | (__Vtemp1714[5U] 
-                                                  >> 0x10U))));
+                    VL_WRITEF("%c",8,(0xffU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                               >> 0x10U)));
                 }
                 if (VL_UNLIKELY((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel)))) {
                     VL_WRITEF("\nFinito\n");
                     VL_FINISH_MT("../RVfpga/src/SweRVolfSoC/Peripherals/SystemController/swervolf_syscon.v", 172, "");
                 }
                 if ((8U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                    __Vtemp1715[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1715[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1715[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1715[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1715[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1715[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1715[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1716, __Vtemp1715);
                     __Vdly__syscon__DOT__sw_irq4 = 
-                        (1U & (__Vtemp1716[6U] >> 0xfU));
-                    __Vtemp1717[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1717[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1717[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1717[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1717[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1717[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1717[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1718, __Vtemp1717);
+                        (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                               >> 0xfU));
                     __Vdly__syscon__DOT__sw_irq4_edge 
-                        = (1U & (__Vtemp1718[6U] >> 0xeU));
-                    __Vtemp1719[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1719[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1719[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1719[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1719[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1719[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1719[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1720, __Vtemp1719);
+                        = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                 >> 0xeU));
                     __Vdly__syscon__DOT__sw_irq4_pol 
-                        = (1U & (__Vtemp1720[6U] >> 0xdU));
-                    __Vtemp1721[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1721[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1721[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1721[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1721[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1721[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1721[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1722, __Vtemp1721);
+                        = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                 >> 0xdU));
                     __Vdly__syscon__DOT__sw_irq4_timer 
-                        = (1U & (__Vtemp1722[6U] >> 0xcU));
-                    __Vtemp1723[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1723[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1723[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1723[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1723[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1723[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1723[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1724, __Vtemp1723);
+                        = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                 >> 0xcU));
                     __Vdly__syscon__DOT__sw_irq3 = 
-                        (1U & (__Vtemp1724[6U] >> 0xbU));
-                    __Vtemp1725[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1725[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1725[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1725[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1725[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1725[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1725[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1726, __Vtemp1725);
+                        (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                               >> 0xbU));
                     __Vdly__syscon__DOT__sw_irq3_edge 
-                        = (1U & (__Vtemp1726[6U] >> 0xaU));
-                    __Vtemp1727[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1727[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1727[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1727[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1727[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1727[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1727[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1728, __Vtemp1727);
+                        = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                 >> 0xaU));
                     __Vdly__syscon__DOT__sw_irq3_pol 
-                        = (1U & (__Vtemp1728[6U] >> 9U));
-                    __Vtemp1729[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1729[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1729[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1729[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1729[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1729[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1729[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1730, __Vtemp1729);
+                        = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                 >> 9U));
                     __Vdly__syscon__DOT__sw_irq3_timer 
-                        = (1U & (__Vtemp1730[6U] >> 8U));
+                        = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                 >> 8U));
                 }
             } else {
-                __Vtemp1731[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1731[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1731[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1731[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1731[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1731[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1731[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                VL_EXTEND_WW(256,224, __Vtemp1732, __Vtemp1731);
-                if ((3U == (0xfU & ((__Vtemp1732[7U] 
-                                     << 0x1eU) | (__Vtemp1732[6U] 
-                                                  >> 2U))))) {
+                if ((3U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                     if ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                        __Vtemp1733[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1733[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1733[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1733[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1733[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1733[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1733[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        VL_EXTEND_WW(240,224, __Vtemp1734, __Vtemp1733);
                         __Vdly__nmi_vec = ((0xffffff00U 
                                             & __Vdly__nmi_vec) 
                                            | (0xffU 
-                                              & ((__Vtemp1734[6U] 
-                                                  << 0x10U) 
-                                                 | (__Vtemp1734[5U] 
-                                                    >> 0x10U))));
+                                              & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                 >> 0x10U)));
                     }
                     if ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                        __Vtemp1735[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1735[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1735[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1735[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1735[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1735[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1735[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        VL_EXTEND_WW(240,224, __Vtemp1736, __Vtemp1735);
                         __Vdly__nmi_vec = ((0xffff00ffU 
                                             & __Vdly__nmi_vec) 
                                            | (0xff00U 
-                                              & ((__Vtemp1736[6U] 
-                                                  << 0x10U) 
-                                                 | (0xff00U 
-                                                    & (__Vtemp1736[5U] 
-                                                       >> 0x10U)))));
+                                              & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                 >> 0x10U)));
                     }
                     if ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                        __Vtemp1737[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1737[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1737[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1737[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1737[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1737[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1737[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        VL_EXTEND_WW(240,224, __Vtemp1738, __Vtemp1737);
                         __Vdly__nmi_vec = ((0xff00ffffU 
                                             & __Vdly__nmi_vec) 
                                            | (0xff0000U 
-                                              & (__Vtemp1738[6U] 
+                                              & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                                  << 0x10U)));
                     }
                     if ((8U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                        __Vtemp1739[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1739[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1739[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1739[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1739[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1739[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1739[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        VL_EXTEND_WW(240,224, __Vtemp1740, __Vtemp1739);
                         __Vdly__nmi_vec = ((0xffffffU 
                                             & __Vdly__nmi_vec) 
                                            | (0xff000000U 
-                                              & (__Vtemp1740[6U] 
+                                              & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                                  << 0x10U)));
                     }
                 } else {
-                    __Vtemp1741[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1741[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1741[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1741[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1741[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1741[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1741[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    VL_EXTEND_WW(256,224, __Vtemp1742, __Vtemp1741);
-                    if ((6U == (0xfU & ((__Vtemp1742[7U] 
-                                         << 0x1eU) 
-                                        | (__Vtemp1742[6U] 
-                                           >> 2U))))) {
+                    if ((6U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                         if ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                            __Vtemp1743[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                            __Vtemp1743[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                            __Vtemp1743[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                            __Vtemp1743[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                            __Vtemp1743[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                            __Vtemp1743[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                            __Vtemp1743[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                            VL_EXTEND_WW(240,224, __Vtemp1744, __Vtemp1743);
                             __Vdly__syscon__DOT__irq_gpio_enable 
-                                = (1U & (__Vtemp1744[5U] 
+                                = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                          >> 0x10U));
                         }
-                        __Vtemp1745[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1745[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1745[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1745[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1745[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1745[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        __Vtemp1745[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                        VL_EXTEND_WW(240,224, __Vtemp1746, __Vtemp1745);
                         __Vdly__syscon__DOT__irq_ptc_enable 
-                            = (1U & (__Vtemp1746[5U] 
+                            = (1U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                      >> 0x11U));
                     } else {
-                        __Vtemp1747[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                        __Vtemp1747[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                        __Vtemp1747[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                        __Vtemp1747[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                        __Vtemp1747[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                        __Vtemp1747[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                        __Vtemp1747[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                        VL_EXTEND_WW(256,224, __Vtemp1748, __Vtemp1747);
-                        if ((0xaU == (0xfU & ((__Vtemp1748[7U] 
-                                               << 0x1eU) 
-                                              | (__Vtemp1748[6U] 
-                                                 >> 2U))))) {
+                        if ((0xaU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                             if ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                __Vtemp1749[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1749[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1749[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1749[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1749[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1749[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1749[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                VL_EXTEND_WW(240,224, __Vtemp1750, __Vtemp1749);
                                 __Vdly__syscon__DOT__mtimecmp 
                                     = ((0xffffffffffffff00ULL 
                                         & __Vdly__syscon__DOT__mtimecmp) 
                                        | (IData)((IData)(
                                                          (0xffU 
-                                                          & ((__Vtemp1750[6U] 
-                                                              << 0x10U) 
-                                                             | (__Vtemp1750[5U] 
-                                                                >> 0x10U))))));
+                                                          & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                             >> 0x10U)))));
                             }
                             if ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                __Vtemp1751[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1751[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1751[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1751[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1751[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1751[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1751[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                VL_EXTEND_WW(240,224, __Vtemp1752, __Vtemp1751);
                                 __Vdly__syscon__DOT__mtimecmp 
                                     = ((0xffffffffffff00ffULL 
                                         & __Vdly__syscon__DOT__mtimecmp) 
                                        | ((QData)((IData)(
                                                           (0xffU 
-                                                           & ((__Vtemp1752[6U] 
-                                                               << 8U) 
-                                                              | (__Vtemp1752[5U] 
-                                                                 >> 0x18U))))) 
+                                                           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                              >> 0x18U)))) 
                                           << 8U));
                             }
                             if ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                __Vtemp1753[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1753[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1753[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1753[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1753[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1753[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1753[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                VL_EXTEND_WW(240,224, __Vtemp1754, __Vtemp1753);
                                 __Vdly__syscon__DOT__mtimecmp 
                                     = ((0xffffffffff00ffffULL 
                                         & __Vdly__syscon__DOT__mtimecmp) 
                                        | ((QData)((IData)(
                                                           (0xffU 
-                                                           & __Vtemp1754[6U]))) 
+                                                           & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat))) 
                                           << 0x10U));
                             }
                             if ((8U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                __Vtemp1755[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1755[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1755[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1755[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1755[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1755[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                __Vtemp1755[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                VL_EXTEND_WW(240,224, __Vtemp1756, __Vtemp1755);
                                 __Vdly__syscon__DOT__mtimecmp 
                                     = ((0xffffffff00ffffffULL 
                                         & __Vdly__syscon__DOT__mtimecmp) 
                                        | ((QData)((IData)(
                                                           (0xffU 
-                                                           & ((__Vtemp1756[7U] 
-                                                               << 0x18U) 
-                                                              | (__Vtemp1756[6U] 
-                                                                 >> 8U))))) 
+                                                           & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                              >> 8U)))) 
                                           << 0x18U));
                             }
                         } else {
-                            __Vtemp1757[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                               << 2U);
-                            __Vtemp1757[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                               << 2U);
-                            __Vtemp1757[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                               << 2U);
-                            __Vtemp1757[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                               << 2U);
-                            __Vtemp1757[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                               << 2U);
-                            __Vtemp1757[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                               << 2U);
-                            __Vtemp1757[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                               << 2U);
-                            VL_EXTEND_WW(256,224, __Vtemp1758, __Vtemp1757);
-                            if ((0xbU == (0xfU & ((
-                                                   __Vtemp1758[7U] 
-                                                   << 0x1eU) 
-                                                  | (__Vtemp1758[6U] 
-                                                     >> 2U))))) {
+                            if ((0xbU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                                 if ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                    __Vtemp1759[0U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1759[1U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1759[2U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1759[3U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1759[4U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1759[5U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1759[6U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    VL_EXTEND_WW(240,224, __Vtemp1760, __Vtemp1759);
                                     __Vdly__syscon__DOT__mtimecmp 
                                         = ((0xffffff00ffffffffULL 
                                             & __Vdly__syscon__DOT__mtimecmp) 
                                            | ((QData)((IData)(
                                                               (0xffU 
-                                                               & ((__Vtemp1760[6U] 
-                                                                   << 0x10U) 
-                                                                  | (__Vtemp1760[5U] 
-                                                                     >> 0x10U))))) 
+                                                               & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                                  >> 0x10U)))) 
                                               << 0x20U));
                                 }
                                 if ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                    __Vtemp1761[0U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1761[1U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1761[2U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1761[3U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1761[4U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1761[5U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1761[6U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    VL_EXTEND_WW(240,224, __Vtemp1762, __Vtemp1761);
                                     __Vdly__syscon__DOT__mtimecmp 
                                         = ((0xffff00ffffffffffULL 
                                             & __Vdly__syscon__DOT__mtimecmp) 
                                            | ((QData)((IData)(
                                                               (0xffU 
-                                                               & ((__Vtemp1762[6U] 
-                                                                   << 8U) 
-                                                                  | (__Vtemp1762[5U] 
-                                                                     >> 0x18U))))) 
+                                                               & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                                  >> 0x18U)))) 
                                               << 0x28U));
                                 }
                                 if ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                    __Vtemp1763[0U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1763[1U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1763[2U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1763[3U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1763[4U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1763[5U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1763[6U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    VL_EXTEND_WW(240,224, __Vtemp1764, __Vtemp1763);
                                     __Vdly__syscon__DOT__mtimecmp 
                                         = ((0xff00ffffffffffffULL 
                                             & __Vdly__syscon__DOT__mtimecmp) 
                                            | ((QData)((IData)(
                                                               (0xffU 
-                                                               & __Vtemp1764[6U]))) 
+                                                               & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat))) 
                                               << 0x30U));
                                 }
                                 if ((8U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                    __Vtemp1765[0U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1765[1U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1765[2U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1765[3U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1765[4U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1765[5U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    __Vtemp1765[6U] 
-                                        = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                    VL_EXTEND_WW(240,224, __Vtemp1766, __Vtemp1765);
                                     __Vdly__syscon__DOT__mtimecmp 
                                         = ((0xffffffffffffffULL 
                                             & __Vdly__syscon__DOT__mtimecmp) 
                                            | ((QData)((IData)(
                                                               (0xffU 
-                                                               & ((__Vtemp1766[7U] 
-                                                                   << 0x18U) 
-                                                                  | (__Vtemp1766[6U] 
-                                                                     >> 8U))))) 
+                                                               & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                                  >> 8U)))) 
                                               << 0x38U));
                                 }
                             } else {
-                                __Vtemp1767[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                                   << 2U);
-                                __Vtemp1767[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                                   << 2U);
-                                __Vtemp1767[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                                   << 2U);
-                                __Vtemp1767[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                                   << 2U);
-                                __Vtemp1767[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                                   << 2U);
-                                __Vtemp1767[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                                   << 2U);
-                                __Vtemp1767[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                                   << 2U);
-                                VL_EXTEND_WW(256,224, __Vtemp1768, __Vtemp1767);
                                 if ((0xcU == (0xfU 
-                                              & ((__Vtemp1768[7U] 
-                                                  << 0x1eU) 
-                                                 | (__Vtemp1768[6U] 
-                                                    >> 2U))))) {
+                                              & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                                     if ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                        __Vtemp1769[0U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1769[1U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1769[2U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1769[3U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1769[4U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1769[5U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1769[6U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        VL_EXTEND_WW(240,224, __Vtemp1770, __Vtemp1769);
                                         __Vdly__syscon__DOT__irq_timer_cnt 
                                             = ((0xffffff00U 
                                                 & __Vdly__syscon__DOT__irq_timer_cnt) 
                                                | (0xffU 
-                                                  & ((__Vtemp1770[6U] 
-                                                      << 0x10U) 
-                                                     | (__Vtemp1770[5U] 
-                                                        >> 0x10U))));
+                                                  & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                     >> 0x10U)));
                                     }
                                     if ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                        __Vtemp1771[0U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1771[1U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1771[2U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1771[3U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1771[4U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1771[5U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1771[6U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        VL_EXTEND_WW(240,224, __Vtemp1772, __Vtemp1771);
                                         __Vdly__syscon__DOT__irq_timer_cnt 
                                             = ((0xffff00ffU 
                                                 & __Vdly__syscon__DOT__irq_timer_cnt) 
                                                | (0xff00U 
-                                                  & ((__Vtemp1772[6U] 
-                                                      << 0x10U) 
-                                                     | (0xff00U 
-                                                        & (__Vtemp1772[5U] 
-                                                           >> 0x10U)))));
+                                                  & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                     >> 0x10U)));
                                     }
                                     if ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                        __Vtemp1773[0U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1773[1U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1773[2U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1773[3U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1773[4U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1773[5U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1773[6U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        VL_EXTEND_WW(240,224, __Vtemp1774, __Vtemp1773);
                                         __Vdly__syscon__DOT__irq_timer_cnt 
                                             = ((0xff00ffffU 
                                                 & __Vdly__syscon__DOT__irq_timer_cnt) 
                                                | (0xff0000U 
-                                                  & (__Vtemp1774[6U] 
+                                                  & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                                      << 0x10U)));
                                     }
                                     if ((8U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                        __Vtemp1775[0U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1775[1U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1775[2U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1775[3U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1775[4U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1775[5U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        __Vtemp1775[6U] 
-                                            = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                        VL_EXTEND_WW(240,224, __Vtemp1776, __Vtemp1775);
                                         __Vdly__syscon__DOT__irq_timer_cnt 
                                             = ((0xffffffU 
                                                 & __Vdly__syscon__DOT__irq_timer_cnt) 
                                                | (0xff000000U 
-                                                  & (__Vtemp1776[6U] 
+                                                  & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                                      << 0x10U)));
                                     }
                                 } else {
-                                    __Vtemp1777[0U] 
-                                        = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                                    __Vtemp1777[1U] 
-                                        = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                                    __Vtemp1777[2U] 
-                                        = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                                    __Vtemp1777[3U] 
-                                        = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                                    __Vtemp1777[4U] 
-                                        = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                                    __Vtemp1777[5U] 
-                                        = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                                    __Vtemp1777[6U] 
-                                        = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                           << 2U);
-                                    VL_EXTEND_WW(256,224, __Vtemp1778, __Vtemp1777);
                                     if ((0xdU == (0xfU 
-                                                  & ((__Vtemp1778[7U] 
-                                                      << 0x1eU) 
-                                                     | (__Vtemp1778[6U] 
-                                                        >> 2U))))) {
+                                                  & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                                         if ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                            __Vtemp1779[0U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1779[1U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1779[2U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1779[3U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1779[4U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1779[5U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1779[6U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            VL_EXTEND_WW(240,224, __Vtemp1780, __Vtemp1779);
                                             __Vdly__syscon__DOT__irq_timer_en 
                                                 = (1U 
-                                                   & (__Vtemp1780[5U] 
+                                                   & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                                       >> 0x10U));
                                         }
                                     } else {
                                         if ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                                            __Vtemp1781[0U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1781[1U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1781[2U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1781[3U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1781[4U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1781[5U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            __Vtemp1781[6U] 
-                                                = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                                            VL_EXTEND_WW(240,224, __Vtemp1782, __Vtemp1781);
                                             vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__Enables_Reg 
                                                 = (0xffU 
-                                                   & ((__Vtemp1782[6U] 
-                                                       << 0x10U) 
-                                                      | (__Vtemp1782[5U] 
-                                                         >> 0x10U)));
+                                                   & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                                      >> 0x10U));
                                         }
                                     }
                                 }
@@ -2078,287 +1247,50 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
                 }
             }
         } else {
-            __Vtemp1783[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1783[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1783[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1783[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1783[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1783[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1783[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            VL_EXTEND_WW(256,224, __Vtemp1784, __Vtemp1783);
-            if ((0xfU == (0xfU & ((__Vtemp1784[7U] 
-                                   << 0x1eU) | (__Vtemp1784[6U] 
-                                                >> 2U))))) {
+            if ((0xfU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                 if ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                    __Vtemp1785[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1785[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1785[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1785[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1785[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1785[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1785[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1786, __Vtemp1785);
                     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__Digits_Reg 
                         = ((0xffffff00U & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__Digits_Reg) 
-                           | (0xffU & ((__Vtemp1786[6U] 
-                                        << 0x10U) | 
-                                       (__Vtemp1786[5U] 
-                                        >> 0x10U))));
+                           | (0xffU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                       >> 0x10U)));
                 }
                 if ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                    __Vtemp1787[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1787[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1787[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1787[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1787[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1787[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1787[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1788, __Vtemp1787);
                     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__Digits_Reg 
                         = ((0xffff00ffU & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__Digits_Reg) 
-                           | (0xff00U & ((__Vtemp1788[6U] 
-                                          << 0x10U) 
-                                         | (0xff00U 
-                                            & (__Vtemp1788[5U] 
-                                               >> 0x10U)))));
+                           | (0xff00U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                         >> 0x10U)));
                 }
                 if ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                    __Vtemp1789[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1789[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1789[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1789[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1789[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1789[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1789[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1790, __Vtemp1789);
                     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__Digits_Reg 
                         = ((0xff00ffffU & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__Digits_Reg) 
-                           | (0xff0000U & (__Vtemp1790[6U] 
+                           | (0xff0000U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                            << 0x10U)));
                 }
                 if ((8U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_sel))) {
-                    __Vtemp1791[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1791[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1791[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1791[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1791[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1791[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    __Vtemp1791[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-                    VL_EXTEND_WW(240,224, __Vtemp1792, __Vtemp1791);
                     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__Digits_Reg 
                         = ((0xffffffU & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__Digits_Reg) 
-                           | (0xff000000U & (__Vtemp1792[6U] 
+                           | (0xff000000U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                              << 0x10U)));
                 }
             }
         }
     }
-    __Vtemp1793[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1793[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1793[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1793[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1793[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1793[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1793[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp1794, __Vtemp1793);
-    __Vtemp1795[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1795[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1795[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1795[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1795[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1795[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1795[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp1796, __Vtemp1795);
-    __Vtemp1797[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1797[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1797[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1797[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1797[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1797[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1797[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp1798, __Vtemp1797);
-    __Vtemp1799[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1799[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1799[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1799[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1799[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1799[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1799[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp1800, __Vtemp1799);
-    __Vtemp1801[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1801[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1801[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1801[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1801[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1801[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1801[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp1802, __Vtemp1801);
-    __Vtemp1803[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1803[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1803[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1803[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1803[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1803[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1803[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp1804, __Vtemp1803);
-    __Vtemp1805[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1805[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1805[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1805[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1805[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1805[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1805[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp1806, __Vtemp1805);
-    __Vtemp1807[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1807[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1807[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1807[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1807[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1807[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    __Vtemp1807[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                       << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp1808, __Vtemp1807);
-    if (((((((((0U == (0xfU & ((__Vtemp1794[7U] << 0x1eU) 
-                               | (__Vtemp1794[6U] >> 2U)))) 
-               | (1U == (0xfU & ((__Vtemp1796[7U] << 0x1eU) 
-                                 | (__Vtemp1796[6U] 
-                                    >> 2U))))) | (2U 
-                                                  == 
-                                                  (0xfU 
-                                                   & ((__Vtemp1798[7U] 
-                                                       << 0x1eU) 
-                                                      | (__Vtemp1798[6U] 
-                                                         >> 2U))))) 
-             | (3U == (0xfU & ((__Vtemp1800[7U] << 0x1eU) 
-                               | (__Vtemp1800[6U] >> 2U))))) 
-            | (6U == (0xfU & ((__Vtemp1802[7U] << 0x1eU) 
-                              | (__Vtemp1802[6U] >> 2U))))) 
-           | (8U == (0xfU & ((__Vtemp1804[7U] << 0x1eU) 
-                             | (__Vtemp1804[6U] >> 2U))))) 
-          | (9U == (0xfU & ((__Vtemp1806[7U] << 0x1eU) 
-                            | (__Vtemp1806[6U] >> 2U))))) 
-         | (0xaU == (0xfU & ((__Vtemp1808[7U] << 0x1eU) 
-                             | (__Vtemp1808[6U] >> 2U)))))) {
-        __Vtemp1809[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1809[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1809[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1809[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1809[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1809[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1809[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1810, __Vtemp1809);
-        if ((0U == (0xfU & ((__Vtemp1810[7U] << 0x1eU) 
-                            | (__Vtemp1810[6U] >> 2U))))) {
+    if (((((((((0U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))) 
+               | (1U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+              | (2U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+             | (3U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+            | (6U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+           | (8U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+          | (9U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
+         | (0xaU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))))) {
+        if ((0U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
             vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat 
                 = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__version;
         } else {
-            __Vtemp1811[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1811[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1811[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1811[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1811[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1811[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1811[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            VL_EXTEND_WW(256,224, __Vtemp1812, __Vtemp1811);
-            if ((1U == (0xfU & ((__Vtemp1812[7U] << 0x1eU) 
-                                | (__Vtemp1812[6U] 
-                                   >> 2U))))) {
+            if ((1U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                 vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat = 0x8946d48dU;
             } else {
-                __Vtemp1813[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1813[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1813[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1813[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1813[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1813[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1813[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                VL_EXTEND_WW(256,224, __Vtemp1814, __Vtemp1813);
-                if ((2U == (0xfU & ((__Vtemp1814[7U] 
-                                     << 0x1eU) | (__Vtemp1814[6U] 
-                                                  >> 2U))))) {
+                if ((2U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat 
                         = ((0xfffffffU & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat) 
                            | (((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__sw_irq4) 
@@ -2385,89 +1317,16 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
                     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat 
                         = (0xffff0000U & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat);
                 } else {
-                    __Vtemp1815[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1815[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1815[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1815[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1815[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1815[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1815[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    VL_EXTEND_WW(256,224, __Vtemp1816, __Vtemp1815);
-                    __Vtemp1817[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1817[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1817[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1817[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1817[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1817[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1817[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    VL_EXTEND_WW(256,224, __Vtemp1818, __Vtemp1817);
-                    __Vtemp1819[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1819[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1819[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1819[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1819[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1819[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1819[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    VL_EXTEND_WW(256,224, __Vtemp1820, __Vtemp1819);
-                    __Vtemp1821[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1821[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1821[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1821[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1821[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1821[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1821[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    VL_EXTEND_WW(256,224, __Vtemp1822, __Vtemp1821);
                     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat 
-                        = ((3U == (0xfU & ((__Vtemp1816[7U] 
-                                            << 0x1eU) 
-                                           | (__Vtemp1816[6U] 
-                                              >> 2U))))
+                        = ((3U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))
                             ? vlSymsp->TOP__rvfpgasim__swervolf.__PVT__nmi_vec
-                            : ((6U == (0xfU & ((__Vtemp1818[7U] 
-                                                << 0x1eU) 
-                                               | (__Vtemp1818[6U] 
-                                                  >> 2U))))
+                            : ((6U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))
                                 ? (((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__irq_ptc_enable) 
                                     << 1U) | (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__irq_gpio_enable))
-                                : ((8U == (0xfU & (
-                                                   (__Vtemp1820[7U] 
-                                                    << 0x1eU) 
-                                                   | (__Vtemp1820[6U] 
-                                                      >> 2U))))
+                                : ((8U == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))
                                     ? (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__mtime)
                                     : ((9U == (0xfU 
-                                               & ((__Vtemp1822[7U] 
-                                                   << 0x1eU) 
-                                                  | (__Vtemp1822[6U] 
-                                                     >> 2U))))
+                                               & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))
                                         ? (IData)((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__mtime 
                                                    >> 0x20U))
                                         : (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__mtimecmp)))));
@@ -2475,89 +1334,20 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
             }
         }
     } else {
-        __Vtemp1823[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1823[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1823[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1823[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1823[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1823[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1823[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1824, __Vtemp1823);
-        if ((0xbU == (0xfU & ((__Vtemp1824[7U] << 0x1eU) 
-                              | (__Vtemp1824[6U] >> 2U))))) {
+        if ((0xbU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
             vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat 
                 = (IData)((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__mtimecmp 
                            >> 0x20U));
         } else {
-            __Vtemp1825[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1825[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1825[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1825[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1825[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1825[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            __Vtemp1825[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                               << 2U);
-            VL_EXTEND_WW(256,224, __Vtemp1826, __Vtemp1825);
-            if ((0xcU == (0xfU & ((__Vtemp1826[7U] 
-                                   << 0x1eU) | (__Vtemp1826[6U] 
-                                                >> 2U))))) {
+            if ((0xcU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                 vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat 
                     = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__irq_timer_cnt;
             } else {
-                __Vtemp1827[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1827[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1827[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1827[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1827[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1827[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                __Vtemp1827[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                   << 2U);
-                VL_EXTEND_WW(256,224, __Vtemp1828, __Vtemp1827);
-                if ((0xdU == (0xfU & ((__Vtemp1828[7U] 
-                                       << 0x1eU) | 
-                                      (__Vtemp1828[6U] 
-                                       >> 2U))))) {
+                if ((0xdU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat 
                         = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__syscon__DOT__irq_timer_en;
                 } else {
-                    __Vtemp1829[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1829[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1829[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1829[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1829[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1829[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    __Vtemp1829[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                       << 2U);
-                    VL_EXTEND_WW(256,224, __Vtemp1830, __Vtemp1829);
-                    if ((0xfU == (0xfU & ((__Vtemp1830[7U] 
-                                           << 0x1eU) 
-                                          | (__Vtemp1830[6U] 
-                                             >> 2U))))) {
+                    if ((0xfU == (0xfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) {
                         vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_s2m_sys_dat = 0U;
                     }
                 }
@@ -2929,43 +1719,16 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
 VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swervolf__30(Vrvfpgasim__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+        Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swervolf__30\n"); );
     Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Variables
-    WData/*223:0*/ __Vtemp1834[7];
-    WData/*255:0*/ __Vtemp1835[8];
-    WData/*223:0*/ __Vtemp1836[7];
-    WData/*255:0*/ __Vtemp1837[8];
     // Body
     if (vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn) {
-        __Vtemp1834[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1834[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1834[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1834[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1834[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1834[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1834[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1835, __Vtemp1834);
         if ((((((IData)(vlSymsp->TOP__rvfpgasim__swervolf.wb_intercon0__DOT____Vcellout__wb_mux_io__wbs_cyc_o) 
                 >> 3U) & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_stb)) 
-              & (1U == (7U & (__Vtemp1835[3U] >> 2U)))) 
+              & (1U == (7U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
              & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_we))) {
-            __Vtemp1836[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1836[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1836[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1836[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1836[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1836[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1836[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            VL_EXTEND_WW(240,224, __Vtemp1837, __Vtemp1836);
             vlSymsp->TOP__rvfpgasim__swervolf.__PVT__timer_ptc__DOT__rptc_hrc 
-                = ((__Vtemp1837[3U] << 0x10U) | (__Vtemp1837[2U] 
-                                                 >> 0x10U));
+                = ((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                    << 0x10U) | (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                 >> 0x10U));
         } else {
             if ((0x100U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__timer_ptc__DOT__rptc_ctrl))) {
                 vlSymsp->TOP__rvfpgasim__swervolf.__PVT__timer_ptc__DOT__rptc_hrc 
@@ -2980,43 +1743,16 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
 VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swervolf__31(Vrvfpgasim__Syms* __restrict vlSymsp) {
     VL_DEBUG_IF(VL_DBG_MSGF("+        Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swervolf__31\n"); );
     Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    // Variables
-    WData/*223:0*/ __Vtemp1838[7];
-    WData/*255:0*/ __Vtemp1839[8];
-    WData/*223:0*/ __Vtemp1840[7];
-    WData/*255:0*/ __Vtemp1841[8];
     // Body
     if (vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn) {
-        __Vtemp1838[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1838[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1838[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1838[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1838[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1838[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1838[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1839, __Vtemp1838);
         if ((((((IData)(vlSymsp->TOP__rvfpgasim__swervolf.wb_intercon0__DOT____Vcellout__wb_mux_io__wbs_cyc_o) 
                 >> 3U) & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_stb)) 
-              & (2U == (7U & (__Vtemp1839[3U] >> 2U)))) 
+              & (2U == (7U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
              & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_we))) {
-            __Vtemp1840[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1840[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1840[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1840[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1840[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1840[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1840[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            VL_EXTEND_WW(240,224, __Vtemp1841, __Vtemp1840);
             vlSymsp->TOP__rvfpgasim__swervolf.__PVT__timer_ptc__DOT__rptc_lrc 
-                = ((__Vtemp1841[3U] << 0x10U) | (__Vtemp1841[2U] 
-                                                 >> 0x10U));
+                = ((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                    << 0x10U) | (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
+                                 >> 0x10U));
         } else {
             if ((0x100U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__timer_ptc__DOT__rptc_ctrl))) {
                 vlSymsp->TOP__rvfpgasim__swervolf.__PVT__timer_ptc__DOT__rptc_lrc 
@@ -3033,43 +1769,16 @@ VL_INLINE_OPT void Vrvfpgasim_swervolf_core__Bz1::_sequent__TOP__rvfpgasim__swer
     Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
     // Variables
     IData/*31:0*/ __Vdly__timer_ptc__DOT__rptc_cntr;
-    WData/*223:0*/ __Vtemp1842[7];
-    WData/*255:0*/ __Vtemp1843[8];
-    WData/*223:0*/ __Vtemp1844[7];
-    WData/*255:0*/ __Vtemp1845[8];
     // Body
     __Vdly__timer_ptc__DOT__rptc_cntr = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__timer_ptc__DOT__rptc_cntr;
     if (vlSymsp->TOP__rvfpgasim.__Vcellinp__swervolf__rstn) {
-        __Vtemp1842[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1842[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1842[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1842[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1842[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1842[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        __Vtemp1842[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                           << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp1843, __Vtemp1842);
         if ((((((IData)(vlSymsp->TOP__rvfpgasim__swervolf.wb_intercon0__DOT____Vcellout__wb_mux_io__wbs_cyc_o) 
                 >> 3U) & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_stb)) 
-              & (0U == (7U & (__Vtemp1843[3U] >> 2U)))) 
+              & (0U == (7U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr)))) 
              & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_we))) {
-            __Vtemp1844[0U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1844[1U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1844[2U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1844[3U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1844[4U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1844[5U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            __Vtemp1844[6U] = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat;
-            VL_EXTEND_WW(240,224, __Vtemp1845, __Vtemp1844);
-            __Vdly__timer_ptc__DOT__rptc_cntr = ((__Vtemp1845[3U] 
+            __Vdly__timer_ptc__DOT__rptc_cntr = ((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                                   << 0x10U) 
-                                                 | (__Vtemp1845[2U] 
+                                                 | (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_m2s_io_dat 
                                                     >> 0x10U));
         } else {
             if ((1U & (((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__timer_ptc__DOT__lrc_match) 

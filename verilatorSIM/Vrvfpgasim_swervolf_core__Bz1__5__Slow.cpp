@@ -4749,7 +4749,7 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__7(Vrvfpga
            & (1U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i)));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wr_spsr 
         = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__spi2__DOT__wb_wr) 
-           & (1U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i)));
+           & (1U == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i)));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__exu_rets_e1_pkt 
         = ((0x3bU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__exu_rets_e1_pkt)) 
            | (4U & (((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__exu__DOT__i1_predict_p_e1[0U] 

@@ -348,7 +348,6 @@ void Vrvfpgasim_swervolf_core__Bz1::_ctor_var_reset() {
     __PVT__o_gpio = VL_RAND_RESET_I(32);
     __PVT__spi2_rdt = VL_RAND_RESET_I(8);
     __PVT__spi2_irq = VL_RAND_RESET_I(1);
-    __Vcellinp__spi2__adr_i = VL_RAND_RESET_I(3);
     __Vcellout__fastInvSqrt__dat_o = VL_RAND_RESET_I(16);
     __Vcellinp__swerv_eh1__extintsrc_req = VL_RAND_RESET_I(8);
     io_data__out = VL_RAND_RESET_I(32);
@@ -558,10 +557,10 @@ void Vrvfpgasim_swervolf_core__Bz1::_ctor_var_reset() {
     axi_intercon__DOT__axi_xbar__DOT__gen_slv_port_demux__BRA__2__KET____DOT__i_axi_err_slv__DOT__i_r_fifo__DOT____Vlvbound1 = VL_RAND_RESET_I(12);
     __PVT__axi_intercon__DOT__axi_xbar__DOT__gen_slv_port_demux__BRA__2__KET____DOT__i_axi_err_slv__DOT__i_r_counter__DOT__i_counter__DOT__counter_q = VL_RAND_RESET_I(9);
     __PVT__axi_intercon__DOT__axi_xbar__DOT__gen_slv_port_demux__BRA__2__KET____DOT__i_axi_err_slv__DOT__i_r_counter__DOT__i_counter__DOT__counter_d = VL_RAND_RESET_I(9);
-    wb_intercon0__DOT____Vcellout__wb_mux_io__wbs_cyc_o = VL_RAND_RESET_I(7);
+    wb_intercon0__DOT____Vcellout__wb_mux_io__wbs_cyc_o = VL_RAND_RESET_I(8);
     __PVT__wb_intercon0__DOT__wb_mux_io__DOT__wbm_err = VL_RAND_RESET_I(1);
     __PVT__wb_intercon0__DOT__wb_mux_io__DOT__slave_sel = VL_RAND_RESET_I(3);
-    __PVT__wb_intercon0__DOT__wb_mux_io__DOT__match = VL_RAND_RESET_I(7);
+    __PVT__wb_intercon0__DOT__wb_mux_io__DOT__match = VL_RAND_RESET_I(8);
     __PVT__axi2wb__DOT__hi_32b_w = VL_RAND_RESET_I(1);
     __PVT__axi2wb__DOT__arbiter = VL_RAND_RESET_I(1);
     __PVT__axi2wb__DOT__wb_rdt_low = VL_RAND_RESET_I(32);
@@ -832,8 +831,6 @@ void Vrvfpgasim_swervolf_core__Bz1::_ctor_var_reset() {
     __PVT__spi2__DOT__wfifo__DOT__rp_p1 = VL_RAND_RESET_I(2);
     __PVT__spi2__DOT__wfifo__DOT__gb = VL_RAND_RESET_I(1);
     __PVT__fastInvSqrt__DOT__interupt = VL_RAND_RESET_I(1);
-    __PVT__fastInvSqrt__DOT__data_in = VL_RAND_RESET_I(16);
-    __PVT__fastInvSqrt__DOT__data_out = VL_RAND_RESET_I(16);
     __PVT__fastInvSqrt__DOT__rst_fastInvSqrt = VL_RAND_RESET_I(1);
     __PVT__fastInvSqrt__DOT__data_in_fastInvSqrt = VL_RAND_RESET_I(16);
     __PVT__fastInvSqrt__DOT__valid_in_fastInvSqrt = VL_RAND_RESET_I(1);
@@ -841,7 +838,8 @@ void Vrvfpgasim_swervolf_core__Bz1::_ctor_var_reset() {
     __PVT__fastInvSqrt__DOT__data_out_fastInvSqrt = VL_RAND_RESET_I(16);
     __PVT__fastInvSqrt__DOT__valid_out_fastInvSqrt = VL_RAND_RESET_I(1);
     __PVT__fastInvSqrt__DOT__ready_out_fastInvSqrt = VL_RAND_RESET_I(1);
-    __PVT__fastInvSqrt__DOT__debug_state = VL_RAND_RESET_I(3);
+    __PVT__fastInvSqrt__DOT__data_in = VL_RAND_RESET_I(16);
+    __PVT__fastInvSqrt__DOT__data_out = VL_RAND_RESET_I(16);
     __PVT__fastInvSqrt__DOT__valid_wb = VL_RAND_RESET_I(1);
     __PVT__fastInvSqrt__DOT__state = VL_RAND_RESET_I(2);
     __PVT__fastInvSqrt__DOT__next_state = VL_RAND_RESET_I(2);
@@ -5591,7 +5589,7 @@ void Vrvfpgasim_swervolf_core__Bz1::_ctor_var_reset() {
         __PVT__swerv_eh1__DOT__mem__DOT__Gen_dccm_enable__DOT__dccm__DOT__mem_bank__BRA__7__KET____DOT__dccm_bank__DOT__ram_core[__Vi0] = VL_RAND_RESET_Q(39);
     }
     __Vfunc_wb_intercon0__DOT__wb_mux_io__DOT__ff1__0__Vfuncout = VL_RAND_RESET_I(3);
-    __Vfunc_wb_intercon0__DOT__wb_mux_io__DOT__ff1__0__in = VL_RAND_RESET_I(7);
+    __Vfunc_wb_intercon0__DOT__wb_mux_io__DOT__ff1__0__in = VL_RAND_RESET_I(8);
     __Vfunc_swerv_eh1__DOT__swerv__DOT__ifu__DOT__bp__DOT__decode2_4__1__Vfuncout = VL_RAND_RESET_I(4);
     __Vfunc_swerv_eh1__DOT__swerv__DOT__ifu__DOT__bp__DOT__decode2_4__1__in = VL_RAND_RESET_I(2);
     __Vfunc_swerv_eh1__DOT__swerv__DOT__ifu__DOT__bp__DOT__decode2_4__2__Vfuncout = VL_RAND_RESET_I(4);

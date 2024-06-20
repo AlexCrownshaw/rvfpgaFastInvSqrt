@@ -14,46 +14,16 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__3(Vrvfpga
     WData/*95:0*/ __Vtemp41[3];
     WData/*95:0*/ __Vtemp45[3];
     WData/*95:0*/ __Vtemp49[3];
-    WData/*223:0*/ __Vtemp52[7];
-    WData/*255:0*/ __Vtemp53[8];
-    WData/*223:0*/ __Vtemp54[7];
-    WData/*255:0*/ __Vtemp55[8];
-    WData/*223:0*/ __Vtemp56[7];
-    WData/*255:0*/ __Vtemp57[8];
-    WData/*223:0*/ __Vtemp58[7];
-    WData/*255:0*/ __Vtemp59[8];
-    WData/*223:0*/ __Vtemp60[7];
-    WData/*255:0*/ __Vtemp61[8];
-    WData/*223:0*/ __Vtemp62[7];
-    WData/*255:0*/ __Vtemp63[8];
-    WData/*223:0*/ __Vtemp64[7];
-    WData/*255:0*/ __Vtemp65[8];
-    WData/*223:0*/ __Vtemp66[7];
-    WData/*255:0*/ __Vtemp67[8];
-    WData/*223:0*/ __Vtemp68[7];
-    WData/*255:0*/ __Vtemp69[8];
-    WData/*223:0*/ __Vtemp70[7];
-    WData/*255:0*/ __Vtemp71[8];
-    WData/*223:0*/ __Vtemp72[7];
-    WData/*255:0*/ __Vtemp73[8];
-    WData/*223:0*/ __Vtemp74[7];
-    WData/*255:0*/ __Vtemp75[8];
-    WData/*223:0*/ __Vtemp76[7];
-    WData/*255:0*/ __Vtemp77[8];
-    WData/*223:0*/ __Vtemp78[7];
-    WData/*255:0*/ __Vtemp79[8];
-    WData/*223:0*/ __Vtemp80[7];
-    WData/*255:0*/ __Vtemp81[8];
-    WData/*95:0*/ __Vtemp105[3];
-    WData/*95:0*/ __Vtemp106[3];
-    WData/*95:0*/ __Vtemp107[3];
-    WData/*95:0*/ __Vtemp108[3];
-    WData/*95:0*/ __Vtemp109[3];
-    WData/*95:0*/ __Vtemp113[3];
-    WData/*95:0*/ __Vtemp114[3];
-    WData/*127:0*/ __Vtemp115[4];
-    WData/*127:0*/ __Vtemp116[4];
-    WData/*127:0*/ __Vtemp138[4];
+    WData/*95:0*/ __Vtemp75[3];
+    WData/*95:0*/ __Vtemp76[3];
+    WData/*95:0*/ __Vtemp77[3];
+    WData/*95:0*/ __Vtemp78[3];
+    WData/*95:0*/ __Vtemp79[3];
+    WData/*95:0*/ __Vtemp83[3];
+    WData/*95:0*/ __Vtemp84[3];
+    WData/*127:0*/ __Vtemp85[4];
+    WData/*127:0*/ __Vtemp86[4];
+    WData/*127:0*/ __Vtemp108[4];
     // Body
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__i_gpio 
         = (0xfffffffeU & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__i_gpio);
@@ -4284,133 +4254,19 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__3(Vrvfpga
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__next_state 
         = vlSymsp->TOP__rvfpgasim__swervolf.__Vtable5___PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__next_state
         [vlSymsp->TOP__rvfpgasim__swervolf.__Vtableidx5];
-    __Vtemp52[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp52[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp52[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp52[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp52[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp52[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp52[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp53, __Vtemp52);
-    if ((1U & ((0x18000000U & (__Vtemp53[3U] << 0x1bU)) 
-               | (__Vtemp53[2U] >> 5U)))) {
-        __Vtemp54[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp54[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp54[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp54[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp54[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp54[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp54[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp55, __Vtemp54);
-        __Vtemp56[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp56[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp56[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp56[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp56[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp56[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp56[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp57, __Vtemp56);
-        __Vtemp58[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp58[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp58[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp58[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp58[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp58[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp58[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp59, __Vtemp58);
+    if ((8U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))) {
         vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__wb_dat 
-            = ((1U & ((0x30000000U & (__Vtemp55[3U] 
-                                      << 0x1cU)) | 
-                      (__Vtemp55[2U] >> 4U))) ? vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_in
-                : ((1U & ((0x60000000U & (__Vtemp57[3U] 
-                                          << 0x1dU)) 
-                          | (__Vtemp57[2U] >> 3U)))
+            = ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))
+                ? vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_in
+                : ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))
                     ? vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_in
-                    : ((1U & ((__Vtemp59[3U] << 0x1eU) 
-                              | (__Vtemp59[2U] >> 2U)))
+                    : ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))
                         ? vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_nec
                         : vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_eclk)));
     } else {
-        __Vtemp60[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp60[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp60[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp60[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp60[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp60[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        __Vtemp60[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                         << 2U);
-        VL_EXTEND_WW(256,224, __Vtemp61, __Vtemp60);
-        if ((1U & ((0x30000000U & (__Vtemp61[3U] << 0x1cU)) 
-                   | (__Vtemp61[2U] >> 4U)))) {
-            __Vtemp62[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp62[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp62[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp62[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp62[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp62[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp62[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            VL_EXTEND_WW(256,224, __Vtemp63, __Vtemp62);
-            if ((1U & ((0x60000000U & (__Vtemp63[3U] 
-                                       << 0x1dU)) | 
-                       (__Vtemp63[2U] >> 3U)))) {
-                __Vtemp64[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp64[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp64[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp64[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp64[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp64[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp64[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                VL_EXTEND_WW(256,224, __Vtemp65, __Vtemp64);
-                if ((1U & ((__Vtemp65[3U] << 0x1eU) 
-                           | (__Vtemp65[2U] >> 2U)))) {
+        if ((4U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))) {
+            if ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))) {
+                if ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))) {
                     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__wb_dat 
                         = vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_ints;
                 } else {
@@ -4421,191 +4277,64 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__3(Vrvfpga
                         = (3U & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__wb_dat);
                 }
             } else {
-                __Vtemp66[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp66[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp66[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp66[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp66[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp66[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                __Vtemp66[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                                 << 2U);
-                VL_EXTEND_WW(256,224, __Vtemp67, __Vtemp66);
                 vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__wb_dat 
-                    = ((1U & ((__Vtemp67[3U] << 0x1eU) 
-                              | (__Vtemp67[2U] >> 2U)))
+                    = ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))
                         ? vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_aux
                         : vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_ptrig);
             }
         } else {
-            __Vtemp68[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp68[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp68[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp68[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp68[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp68[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp68[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            VL_EXTEND_WW(256,224, __Vtemp69, __Vtemp68);
-            __Vtemp70[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp70[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp70[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp70[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp70[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp70[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp70[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            VL_EXTEND_WW(256,224, __Vtemp71, __Vtemp70);
-            __Vtemp72[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp72[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp72[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp72[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp72[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp72[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            __Vtemp72[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                             << 2U);
-            VL_EXTEND_WW(256,224, __Vtemp73, __Vtemp72);
             vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__wb_dat 
-                = ((1U & ((0x60000000U & (__Vtemp69[3U] 
-                                          << 0x1dU)) 
-                          | (__Vtemp69[2U] >> 3U)))
-                    ? ((1U & ((__Vtemp71[3U] << 0x1eU) 
-                              | (__Vtemp71[2U] >> 2U)))
+                = ((2U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))
+                    ? ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))
                         ? vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_inte
                         : vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_oe)
-                    : ((1U & ((__Vtemp73[3U] << 0x1eU) 
-                              | (__Vtemp73[2U] >> 2U)))
+                    : ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))
                         ? vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_out
                         : vlSymsp->TOP__rvfpgasim__swervolf.__PVT__gpio_module__DOT__rgpio_in));
         }
     }
-    __Vtemp74[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp74[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp74[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp74[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp74[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp74[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp74[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp75, __Vtemp74);
-    __Vtemp76[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp76[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp76[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp76[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp76[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp76[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp76[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp77, __Vtemp76);
     vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi__adr_i 
-        = ((4U & __Vtemp75[5U]) ? 0U : (7U & ((__Vtemp77[6U] 
-                                               << 0x1dU) 
-                                              | (__Vtemp77[5U] 
-                                                 >> 3U))));
-    __Vtemp78[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp78[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp78[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp78[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp78[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp78[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp78[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp79, __Vtemp78);
-    __Vtemp80[0U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp80[1U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp80[2U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp80[3U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp80[4U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp80[5U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    __Vtemp80[6U] = ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
-                     << 2U);
-    VL_EXTEND_WW(256,224, __Vtemp81, __Vtemp80);
-    vlSymsp->TOP__rvfpgasim__swervolf.__Vcellinp__spi2__adr_i 
-        = ((4U & __Vtemp79[4U]) ? 0U : (7U & ((__Vtemp81[5U] 
-                                               << 0x1dU) 
-                                              | (__Vtemp81[4U] 
-                                                 >> 3U))));
+        = ((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr))
+            ? 0U : (7U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
+                          >> 1U)));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match 
-        = ((0x7eU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
-           | (0x3100U == (0xfffffffcU & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
+        = ((0xfeU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
+           | (0x3100U == (0xffffff80U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
                                          << 2U))));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match 
-        = ((0x7dU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
+        = ((0xfdU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
            | ((0x2000U == (0xfffff000U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
                                           << 2U))) 
               << 1U));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match 
-        = ((0x7bU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
+        = ((0xfbU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
            | ((0x1400U == (0xffffffc0U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
                                           << 2U))) 
               << 2U));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match 
-        = ((0x77U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
+        = ((0xf7U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
            | ((0x1200U == (0xffffffc0U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
                                           << 2U))) 
               << 3U));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match 
-        = ((0x6fU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
+        = ((0xefU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
            | ((0x1100U == (0xffffffc0U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
                                           << 2U))) 
               << 4U));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match 
-        = ((0x5fU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
+        = ((0xdfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
            | ((0x1040U == (0xffffffc0U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
                                           << 2U))) 
               << 5U));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match 
-        = ((0x3fU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
+        = ((0xbfU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
            | ((0x1000U == (0xffffffc0U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
                                           << 2U))) 
               << 6U));
+    vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match 
+        = ((0x7fU & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_intercon0__DOT__wb_mux_io__DOT__match)) 
+           | ((0U == (0xfffff000U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__wb_adr) 
+                                     << 2U))) << 7U));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[0U] 
         = ((1U & vlSymsp->TOP__rvfpgasim__swervolf.__PVT__axi_intercon__DOT__slaves_resp[0U]) 
            | (0xfffffffeU & (2U | (0xfffffff0U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__io_rdata) 
@@ -5264,19 +4993,19 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__3(Vrvfpga
                                 * (QData)((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__y0_fix))));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__newt_raph_inst__DOT__B 
         = (0xffffffffffffULL & (0x1800ULL - vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__newt_raph_inst__DOT__A));
-    __Vtemp105[0U] = 0x800U;
-    __Vtemp105[1U] = 0U;
-    __Vtemp105[2U] = 0U;
-    VL_EXTEND_WI(65,16, __Vtemp106, (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__y0_fix));
-    VL_EXTEND_WQ(65,48, __Vtemp107, vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__newt_raph_inst__DOT__B);
-    VL_MUL_W(3, __Vtemp108, __Vtemp106, __Vtemp107);
-    VL_ADD_W(3, __Vtemp109, __Vtemp105, __Vtemp108);
+    __Vtemp75[0U] = 0x800U;
+    __Vtemp75[1U] = 0U;
+    __Vtemp75[2U] = 0U;
+    VL_EXTEND_WI(65,16, __Vtemp76, (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__y0_fix));
+    VL_EXTEND_WQ(65,48, __Vtemp77, vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__newt_raph_inst__DOT__B);
+    VL_MUL_W(3, __Vtemp78, __Vtemp76, __Vtemp77);
+    VL_ADD_W(3, __Vtemp79, __Vtemp75, __Vtemp78);
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__newt_raph_inst__DOT__y_temp[0U] 
-        = __Vtemp109[0U];
+        = __Vtemp79[0U];
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__newt_raph_inst__DOT__y_temp[1U] 
-        = __Vtemp109[1U];
+        = __Vtemp79[1U];
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__newt_raph_inst__DOT__y_temp[2U] 
-        = (1U & __Vtemp109[2U]);
+        = (1U & __Vtemp79[2U]);
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__y 
         = (0xffffU & ((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__newt_raph_inst__DOT__y_temp[1U] 
                        << 0x14U) | (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__fastInvSqrt__DOT__fastInvSqrt_q12_4__DOT__newt_raph_inst__DOT__y_temp[0U] 
@@ -6438,32 +6167,32 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__3(Vrvfpga
                                                    << (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__bp__DOT__btb_rd_addr_f2)) 
                                                   & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.swerv_eh1__DOT__swerv__DOT__ifu__DOT__bp__DOT____Vcellout__btb_lru_ff__dout))))) 
                     << 3U)));
-    __Vtemp113[0U] = (IData)((QData)((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[0U])));
-    __Vtemp113[1U] = ((0xfffffffcU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[1U] 
-                                      << 2U)) | (IData)(
-                                                        ((QData)((IData)(
-                                                                         vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[0U])) 
-                                                         >> 0x20U)));
-    __Vtemp113[2U] = (3U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[1U] 
-                            >> 0x1eU));
-    VL_EXTEND_WW(68,66, __Vtemp114, __Vtemp113);
-    __Vtemp115[0U] = __Vtemp114[0U];
-    __Vtemp115[1U] = __Vtemp114[1U];
-    __Vtemp115[2U] = ((0xfffffff0U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[2U] 
-                                      << 4U)) | __Vtemp114[2U]);
-    __Vtemp115[3U] = (0xfU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[2U] 
-                              >> 0x1cU));
-    VL_EXTEND_WW(102,100, __Vtemp116, __Vtemp115);
+    __Vtemp83[0U] = (IData)((QData)((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[0U])));
+    __Vtemp83[1U] = ((0xfffffffcU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[1U] 
+                                     << 2U)) | (IData)(
+                                                       ((QData)((IData)(
+                                                                        vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[0U])) 
+                                                        >> 0x20U)));
+    __Vtemp83[2U] = (3U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[1U] 
+                           >> 0x1eU));
+    VL_EXTEND_WW(68,66, __Vtemp84, __Vtemp83);
+    __Vtemp85[0U] = __Vtemp84[0U];
+    __Vtemp85[1U] = __Vtemp84[1U];
+    __Vtemp85[2U] = ((0xfffffff0U & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[2U] 
+                                     << 4U)) | __Vtemp84[2U]);
+    __Vtemp85[3U] = (0xfU & (vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[2U] 
+                             >> 0x1cU));
+    VL_EXTEND_WW(102,100, __Vtemp86, __Vtemp85);
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[0U] 
-        = __Vtemp116[0U];
+        = __Vtemp86[0U];
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[1U] 
-        = __Vtemp116[1U];
+        = __Vtemp86[1U];
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[2U] 
-        = __Vtemp116[2U];
+        = __Vtemp86[2U];
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[3U] 
         = ((0xffffffc0U & ((IData)((QData)((IData)(
                                                    vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[3U]))) 
-                           << 6U)) | __Vtemp116[3U]);
+                           << 6U)) | __Vtemp86[3U]);
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__mem__DOT__icm__DOT__ic_data_inst__DOT__ic_premux_data_ext[4U] 
         = ((0x3fU & ((IData)((QData)((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__ic_premux_data[3U]))) 
                      >> 0x1aU)) | (0xffffffc0U & ((IData)(
@@ -8586,7 +8315,7 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__3(Vrvfpga
                                                       << 1U) 
                                                      | (0U 
                                                         == (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__q1ptr)))))))));
-    __Vtemp138[1U] = ((((- (IData)((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__qren)))) 
+    __Vtemp108[1U] = ((((- (IData)((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__qren)))) 
                         & ((0xfff80000U & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__misc1) 
                                            << 0x13U)) 
                            | (IData)((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__misc0 
@@ -8603,7 +8332,7 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__3(Vrvfpga
                                             << 0x13U)) 
                             | (IData)((vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__misc2 
                                        >> 0x20U)))));
-    __Vtemp138[2U] = ((((- (IData)((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__qren)))) 
+    __Vtemp108[2U] = ((((- (IData)((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__qren)))) 
                         & ((0x7ffffU & ((IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__misc1) 
                                         >> 0xdU)) | 
                            (0xfff80000U & ((IData)(
@@ -8652,10 +8381,10 @@ void Vrvfpgasim_swervolf_core__Bz1::_settle__TOP__rvfpgasim__swervolf__3(Vrvfpga
                                                                      >> 0x20U)) 
                                                             >> 0xdU)))))) 
                                   << 0x2dU) | (((QData)((IData)(
-                                                                __Vtemp138[2U])) 
+                                                                __Vtemp108[2U])) 
                                                 << 0xdU) 
                                                | ((QData)((IData)(
-                                                                  __Vtemp138[1U])) 
+                                                                  __Vtemp108[1U])) 
                                                   >> 0x13U))));
     vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__misc0eff 
         = ((((((QData)((IData)((- (IData)((1U & (IData)(vlSymsp->TOP__rvfpgasim__swervolf.__PVT__swerv_eh1__DOT__swerv__DOT__ifu__DOT__aln__DOT__qren)))))) 

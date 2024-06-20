@@ -86,11 +86,13 @@ module fastInvSqrt_top(
                 ack_o <= 1'b1; // Acknowledge the cycle
                 if (we_i) begin
                     data_in <= dat_i;   // Write operation
+                end else begin
+                    dat_o <= data_out;
                 end
             end
-            if (ack_o) begin
-                dat_o <= data_out; // Output data during acknowledge
-            end
+            // if (ack_o) begin
+            //     dat_o <= data_out; // Output data during acknowledge
+            // end
         end
     end
 

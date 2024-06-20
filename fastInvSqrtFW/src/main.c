@@ -9,18 +9,32 @@
 #define READ_ADDR(dir) (*(volatile unsigned int*)dir)
 
 #define FAST_INV_SQRT_INPUT_ADDR 0x80003100
-#define FAST_INV_SQRT_OUTPUT_ADDR 0x80003102
+#define FAST_INV_SQRT_OUTPUT_ADDR 0x80003104
 
+void delay()
+{
+	for (int i=0;i<500000000;i++){};	// Delay
+}
 
 int main(void)
 {
-	unsigned int x = 24; // 1.5 in q12.4 (0000_0000_0001_1000)
+	unsigned int x = 8; // 0.5 in q12.4 (0000_0000_0000_1000)
+
 	WRITE_ADDR(FAST_INV_SQRT_INPUT_ADDR, x);
 
-	for (int i=0;i<10000000;i++){};	// Delay
+	// WRITE_ADDR(0x80003104, x);
 
+
+	// delay();
 	unsigned int y = READ_ADDR(FAST_INV_SQRT_OUTPUT_ADDR);
-	printfNexys("y: %d", y);
+
+	// x = 24; // 1.5 in q12.4 (0000_0000_0001_1000)
+	// WRITE_ADDR(FAST_INV_SQRT_INPUT_ADDR, x);
+
+	// y = READ_ADDR(FAST_INV_SQRT_OUTPUT_ADDR);
+
+	// x = 375; // 23.4375 in q12.4 (0000_0001_0111_0111)
+	// WRITE_ADDR(FAST_INV_SQRT_INPUT_ADDR, x);
 
 	return 0;
 }

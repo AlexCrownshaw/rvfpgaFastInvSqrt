@@ -7,7 +7,7 @@
 void Vrvfpgasim::traceChgSub2(void* userp, VerilatedVcd* tracep) {
     Vrvfpgasim__Syms* __restrict vlSymsp = static_cast<Vrvfpgasim__Syms*>(userp);
     Vrvfpgasim* const __restrict vlTOPp VL_ATTR_UNUSED = vlSymsp->TOPp;
-    vluint32_t* const oldp = tracep->oldp(vlSymsp->__Vm_baseCode + 7638);
+    vluint32_t* const oldp = tracep->oldp(vlSymsp->__Vm_baseCode + 7637);
     if (false && oldp) {}  // Prevent unused
     // Body
     {
