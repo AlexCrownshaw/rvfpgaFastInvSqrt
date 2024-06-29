@@ -413,7 +413,7 @@ module swervolf_core
         .stb_i(wb_m2s_fastInvSqrt_stb),
         .cyc_i(wb_m2s_fastInvSqrt_cyc),
         .ack_o(wb_s2m_fastInvSqrt_ack)
-    );
+        );
 
    swerv_wrapper_dmi swerv_eh1
      (

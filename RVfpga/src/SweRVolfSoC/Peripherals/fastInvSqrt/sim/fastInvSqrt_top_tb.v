@@ -31,19 +31,18 @@ module fastInvSqrt_top_tb;
     reg stb_i;
     reg cyc_i;
     wire ack_o;
-    wire interupt;
     
-    wire [15:0] data_in;
-    wire [15:0] data_out;
+//    wire [15:0] data_in;
+//    wire [15:0] data_out;
     
-    wire rst_fastInvSqrt;
-    wire [15:0] data_in_fastInvSqrt;
-    wire valid_in_fastInvSqrt;
-    wire ready_in_fastInvSqrt;
-    wire [15:0] data_out_fastInvSqrt;
-    wire valid_out_fastInvSqrt;
-    wire ready_out_fastInvSqrt;
-    wire [2:0] debug_state;
+//    wire rst_fastInvSqrt;
+//    wire [15:0] data_in_fastInvSqrt;
+//    wire valid_in_fastInvSqrt;
+//    wire ready_in_fastInvSqrt;
+//    wire [15:0] data_out_fastInvSqrt;
+//    wire valid_out_fastInvSqrt;
+//    wire ready_out_fastInvSqrt;
+//    wire [2:0] debug_state;
 
     // Instantiate the fastInvSqrt_top module
     fastInvSqrt_top uut (
@@ -55,22 +54,18 @@ module fastInvSqrt_top_tb;
         .we_i(we_i),
         .stb_i(stb_i),
         .cyc_i(cyc_i),
-        .ack_o(ack_o),
-        .interupt(interupt)
-        
-        // Debug signals
-        ,
-        .data_in(data_in),
-        .data_out(data_out),
-        
-        .rst_fastInvSqrt(rst_fastInvSqrt),
-        .data_in_fastInvSqrt(data_in_fastInvSqrt),
-        .valid_in_fastInvSqrt(valid_in_fastInvSqrt),
-        .ready_in_fastInvSqrt(ready_in_fastInvSqrt),
-        .data_out_fastInvSqrt(data_out_fastInvSqrt),
-        .valid_out_fastInvSqrt(valid_out_fastInvSqrt),
-        .ready_out_fastInvSqrt(ready_out_fastInvSqrt),
-        .debug_state(debug_state)
+        .ack_o(ack_o)        
+
+//        .data_in(data_in),
+//        .data_out(data_out),
+//        .rst_fastInvSqrt(rst_fastInvSqrt),
+//        .data_in_fastInvSqrt(data_in_fastInvSqrt),
+//        .valid_in_fastInvSqrt(valid_in_fastInvSqrt),
+//        .ready_in_fastInvSqrt(ready_in_fastInvSqrt),
+//        .data_out_fastInvSqrt(data_out_fastInvSqrt),
+//        .valid_out_fastInvSqrt(valid_out_fastInvSqrt),
+//        .ready_out_fastInvSqrt(ready_out_fastInvSqrt),
+//        .debug_state(debug_state)
     );
 
     // Clock generation
@@ -109,9 +104,8 @@ module fastInvSqrt_top_tb;
         we_i = 0;
         stb_i = 0;
         cyc_i = 0;
-
-        // Wait for interupt
-        wait (interupt);
+        
+        # 200 // Delay before read operation
 
         // Read operation (assuming the output of the fastInvSqrt is immediate for this test)
         we_i = 0; // Disable write

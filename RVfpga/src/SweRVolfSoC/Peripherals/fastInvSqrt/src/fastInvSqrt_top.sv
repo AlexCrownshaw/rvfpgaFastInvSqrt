@@ -28,13 +28,13 @@ module fastInvSqrt_top(
     input wire we_i,          // Write enable input
     input wire stb_i,         // Strobe input
     input wire cyc_i,         // Cycle input
-    output reg ack_o,          // Acknowledge output
-    output reg interupt
+    output reg ack_o          // Acknowledge output
     
 //    // Debug I/O
 //    ,output reg [15:0] data_in,
-//    output reg [15:0] data_out,
+//    output reg [15:0] data_out
     
+//    ,
 //    output reg rst_fastInvSqrt,
 //    output reg [15:0] data_in_fastInvSqrt,
 //    output reg valid_in_fastInvSqrt,
@@ -44,7 +44,7 @@ module fastInvSqrt_top(
 //    output reg ready_out_fastInvSqrt,
 //    output reg [2:0] debug_state
 
-);
+    );
 
     // ---- fastInvSqrt module instatiation ----
     reg rst_fastInvSqrt;
@@ -150,14 +150,11 @@ module fastInvSqrt_top(
             data_in_fastInvSqrt <= 16'b0;   // Reset module input signals
             valid_in_fastInvSqrt <= 1'b0;
             ready_out_fastInvSqrt <= 1'b0;
-            interupt <= 1'b0;
-
         end
         else begin
             case (state)
                 IDLE: begin
                     rst_fastInvSqrt <= 1'b0;  // De-assert fastInvSqrt module reset signal
-                    interupt <= 1'b0;
                 end
                 START: begin
                     data_in_fastInvSqrt <= data_in; // Set fastInvSqrt data in
@@ -171,9 +168,7 @@ module fastInvSqrt_top(
                 end
                 DONE: begin
                     data_out <= data_out_fastInvSqrt;
-                    ready_out_fastInvSqrt <= 1'b0;  // De-assert ready_out
-                    
-                    interupt <= 1'b1;
+                    ready_out_fastInvSqrt <= 1'b0;  // De-assert ready_out  
                 end
             endcase
         end
