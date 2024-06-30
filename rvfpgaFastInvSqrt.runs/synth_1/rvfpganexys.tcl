@@ -97,7 +97,7 @@ read_verilog -library xil_defaultlib -sv {
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/fastInvSqrt_top.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/deprecated/fifo_v2.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/fifo_v3.sv
-  C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/fixToSingle.v
+  C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/fixToSingle.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/gray_to_binary.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/SweRVEh1CoreComplex/ifu/ifu_aln_ctl.sv
@@ -123,6 +123,7 @@ read_verilog -library xil_defaultlib -sv {
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/newtonRaphson.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/SweRVEh1CoreComplex/pic/pic_ctrl.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/rr_arb_tree.sv
+  C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/singleToFix.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/stream_register.sv
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/SweRVEh1CoreComplex/swerv.sv
@@ -154,7 +155,6 @@ read_verilog -library xil_defaultlib {
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/LiteDRAM/serv_1.0.2/rtl/serv_state.v
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/LiteDRAM/serv_1.0.2/rtl/serv_top.v
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/Peripherals/spi/simple_spi_top.v
-  C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/singleToFix.v
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/swervolf_core.v
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/Peripherals/SystemController/swervolf_syscon.v
   C:/Dev/rvfpgaFastInvSqrt/RVfpga/src/SweRVolfSoC/Peripherals/uart/uart_receiver.v

@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1719672520">
-  <File Type="OPT-HWDEF" Name="rvfpganexys.hwdef"/>
-  <File Type="ROUTE-BUS-SKEW" Name="rvfpganexys_bus_skew_routed.rpt"/>
-  <File Type="PA-DCP" Name="rvfpganexys.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1719743687">
   <File Type="BITSTR-BMM" Name="rvfpganexys_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="rvfpganexys_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="rvfpganexys_timing_summary_init.rpt"/>
@@ -13,6 +10,7 @@
   <File Type="ROUTE-PWR-SUM" Name="rvfpganexys_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="rvfpganexys_reports.tcl"/>
   <File Type="OPT-DRC" Name="rvfpganexys_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="rvfpganexys.hwdef"/>
   <File Type="PWROPT-DCP" Name="rvfpganexys_pwropt.dcp"/>
   <File Type="PWROPT-DRC" Name="rvfpganexys_drc_pwropted.rpt"/>
   <File Type="PWROPT-TIMING" Name="rvfpganexys_timing_summary_pwropted.rpt"/>
@@ -50,6 +48,7 @@
   <File Type="ROUTE-TIMING-RPX" Name="rvfpganexys_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="rvfpganexys_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="rvfpganexys_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="rvfpganexys_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="rvfpganexys_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="rvfpganexys_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="rvfpganexys_postroute_physopt.dcp"/>
@@ -258,13 +257,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/spi/simple_spi_top.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/singleToFix.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -649,8 +641,8 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/fixToSingle.v">
-      <FileInfo SFType="SVerilog">
+    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/fixToSingle.sv">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -837,6 +829,13 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/singleToFix.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/RVfpga/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -880,6 +879,22 @@
     </File>
     <File Path="$PPRDIR/RVfpga/src/rvfpganexys.sv">
       <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/singleToFix.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/fixToSingle.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

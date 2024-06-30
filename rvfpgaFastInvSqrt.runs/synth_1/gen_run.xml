@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1719671685">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1719743347">
   <File Type="PA-TCL" Name="rvfpganexys.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="rvfpganexys_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="rvfpganexys_reports.tcl"/>
@@ -191,13 +191,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/spi/simple_spi_top.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/singleToFix.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -582,8 +575,8 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/fixToSingle.v">
-      <FileInfo SFType="SVerilog">
+    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/fixToSingle.sv">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -770,6 +763,13 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/singleToFix.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/RVfpga/src/OtherSources/pulp-platform.org__common_cells_1.20.0/src/spill_register.sv">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -813,6 +813,22 @@
     </File>
     <File Path="$PPRDIR/RVfpga/src/rvfpganexys.sv">
       <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/singleToFix.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/RVfpga/src/SweRVolfSoC/Peripherals/fastInvSqrt/src/fixToSingle.v">
+      <FileInfo SFType="SVerilog">
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

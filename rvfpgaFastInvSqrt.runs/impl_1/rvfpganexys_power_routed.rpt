@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date             : Sat Jun 29 15:57:49 2024
+| Date             : Sun Jun 30 11:41:28 2024
 | Host             : DESKTOP-U3T2UJ9 running 64-bit major release  (build 9200)
 | Command          : report_power -file rvfpganexys_power_routed.rpt -pb rvfpganexys_power_summary_routed.pb -rpx rvfpganexys_power_routed.rpx
 | Design           : rvfpganexys
@@ -52,20 +52,20 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.044 |       13 |       --- |             --- |
-| Slice Logic              |     0.017 |    61651 |       --- |             --- |
-|   LUT as Logic           |     0.015 |    34107 |     63400 |           53.80 |
+| Clocks                   |     0.043 |       13 |       --- |             --- |
+| Slice Logic              |     0.017 |    61794 |       --- |             --- |
+|   LUT as Logic           |     0.015 |    34257 |     63400 |           54.03 |
 |   LUT as Distributed RAM |    <0.001 |      292 |     19000 |            1.54 |
-|   CARRY4                 |    <0.001 |      865 |     15850 |            5.46 |
-|   Register               |    <0.001 |    19240 |    126800 |           15.17 |
+|   CARRY4                 |    <0.001 |      872 |     15850 |            5.50 |
+|   Register               |    <0.001 |    19272 |    126800 |           15.20 |
 |   F7/F8 Muxes            |    <0.001 |      508 |     63400 |            0.80 |
 |   LUT as Shift Register  |    <0.001 |        3 |     19000 |            0.02 |
-|   Others                 |     0.000 |     1211 |       --- |             --- |
-| Signals                  |     0.025 |    50613 |       --- |             --- |
+|   Others                 |     0.000 |     1212 |       --- |             --- |
+| Signals                  |     0.026 |    50746 |       --- |             --- |
 | Block RAM                |     0.070 |       44 |       135 |           32.59 |
 | PLL                      |     0.278 |        2 |         6 |           33.33 |
 | DSPs                     |    <0.001 |        7 |       240 |            2.92 |
-| I/O                      |     0.398 |      104 |       210 |           49.52 |
+| I/O                      |     0.399 |      104 |       210 |           49.52 |
 | Static Power             |     0.110 |          |           |                 |
 | Total                    |     0.943 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
@@ -157,12 +157,12 @@ Table of Contents
 | Name                    | Power (W) |
 +-------------------------+-----------+
 | rvfpganexys             |     0.833 |
-|   cdc                   |     0.006 |
-|     i_axi_cdc           |     0.006 |
+|   cdc                   |     0.007 |
+|     i_axi_cdc           |     0.007 |
 |       i_cdc_fifo_gray_r |     0.005 |
 |   clk_gen               |     0.146 |
-|   ddr2                  |     0.407 |
-|     ldc                 |     0.407 |
+|   ddr2                  |     0.406 |
+|     ldc                 |     0.406 |
 |       IOBUF             |     0.009 |
 |       IOBUFDS           |     0.007 |
 |       IOBUFDS_1         |     0.007 |
@@ -193,7 +193,7 @@ Table of Contents
 |       mem               |     0.045 |
 |       swerv             |     0.034 |
 |     syscon              |     0.001 |
-|     timer_ptc           |     0.002 |
+|     timer_ptc           |     0.001 |
 +-------------------------+-----------+
 
 
